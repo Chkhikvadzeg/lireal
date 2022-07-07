@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Montserrat', sans-serif;
+    }
+  }
+
+.hamburger {
+    width: 40px;
+    position: relative;
+    z-index: 100;
+}
+
+.hamburger-line {
+    display: block;
+    width: 40px;
+    height: 6px;
+    margin: 10px auto;
+    transition: all 1s ease-in-out;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.hamburger-line:nth-child(1) {
+    animation: hamburger-line-3 3000ms ease-in-out infinite;
+}
+
+.hamburger-line:nth-child(2) {
+    animation: hamburger-line-2 3000ms ease-in-out infinite;
+}
+
+.hamburger-line:nth-child(3) {
+    animation: hamburger-line-1 3000ms ease-in-out infinite;
+}
+
+.hamburger.active {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.aside-menu-hamburger.active .hamburger-line:nth-child(1){
+    transform: translateY(16px) rotate(45deg);
+    animation: none;
+}
+
+.aside-menu-hamburger.active .hamburger-line:nth-child(2){
+    opacity: 0;
+    animation: none;
+}
+
+.aside-menu-hamburger.active .hamburger-line:nth-child(3){
+    transform:translateY(-16px) rotate(-45deg);
+    animation: none;
+}
+
+
+@keyframes hamburger-line-1 {
+
+   40% {
+        transform: translateX(0px);
+        width: 100%;
+    }
+
+    50% {
+        transform: translateX(10px);
+        width: 0px;
+    }
+
+    80% {
+        transform: translateX(0px);
+        width: 100%;
+    }
+
+    100% {
+        transform: translateX(0px);
+        width: 100%;
+    }
+}
+
+@keyframes hamburger-line-2{
+   40% {
+        transform: translateX(0px);
+        width: 100%;
+    }
+
+    60% {
+        transform: translateX(10px);
+        width: 0px;
+    }
+
+    90% {
+        transform: translateX(0px);
+        width: 100%;
+    }
+
+    100% {
+        transform: translateX(0px);
+        width: 100%;
+    }
+}
+
+@keyframes hamburger-line-3{
+   40% {
+        transform: translateX(0px);
+        width: 100%;
+    }
+
+    70% {
+        transform: translateX(10px);
+        width: 0px;
+    }
+
+    100% {
+        transform: translateX(0px);
+        width: 100%;
+    }
+}
+
+.menu {
+    transition: all 1s ease-in-out;
+    transform: scaleX(0);
+}
+
+.menu.active {
+    width: fit-content;
+    transform: scaleX(1);
+    right: 0;
+}
+
+/* HERO SECTION */
+
+.hero {
+    margin-top: 150px;
+    height: calc(100vh - 150px);
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lireal Landing Page</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="container mx-auto p-10 bg-white flex items-center  h-fit shadow-xl fixed left-0 right-0 top-0 z-10">
+            <a class="block h-[69px]" href="index.html"><img class="w-full h-full" src="./assets/logo.png" alt="logo"></a>
+            <nav class="mx-auto">
+                
+                <ul class="flex space-x-24">
+                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Vermietung</a></li>
+                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verwaltung</a></li>
+                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verkauf</a></li>
+                </ul>
+            </nav>
+            <div class="aside-menu">
+                <button class="hamburger">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                </button>
+                <nav class="menu absolute flex flex-col -right-full top-0 min-h-full px-20 py-10 space-y-5 bg-darkBeige bg-opacity-80">
+                    <div class="flex justify-between">
+                        <div class="flex w-[512px] rounded-md shadow-lg bg-white">
+                            <input class="border-0 w-full h-full p-4 focus-within:outline-none " type="search" name="search" id="search" placeholder="Suche">
+                            <button class="text-2xl rounded-r-md  p-3 bg-lightYellow "><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                        <button class="aside-menu-hamburger active">
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                        </button>
+                    </div>
+                    <ul class="flex flex-col space-y-6 mb-10">
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Home</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Vermieutung</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verwaltung</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verkauf</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Referenzen</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Immobilienangebote</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Unternehmen</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Karriere</a></li>
+                    </ul>
+                    <div class="w-full p-10 bg-white bg-opacity-75 backdrop-blur-lg flex items-center space-x-10 shadow-lg rounded-lg">
+                        <div class="w-1/2 flex flex-col space-y-3">
+                            <span class="block">Jetzt ganz einfach personlich beraten lassen.</span>
+                            <a href="#" class="group bg-white font-semibold py-4 px-5 flex items-center rounded-md hover:bg-opacity-90 shadow-md">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                        </div>
+                        <div class="w-1/2">
+                            <img src="./assets/buildings.svg" alt="buildings">
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="flex items-center justify-between">
+                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Kontakt</a></li>
+                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Impressum</a></li>
+                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Datenschutz</a></li>
+                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">FAQ's</a></li>
+                            <li class="py-2 px-6"><a href="#">AGB</a></li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container relative mx-auto flex items-center pl-8 h-full bg-[url('../assets/hero.png')] bg-no-repeat bg-cover text-white">
+            <h1 class="drop-shadow-sm w-1/2 text-[114px] leading-[140px] font-semibold tracking-widest">
+                smart. digital. professionell.
+            </h1>
+            <div class="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col items-end space-y-2">
+                <a class="flex group items-center space-x-2 text-2xl p-4  bg-darkBeige rounded-l-md duration-300" href="#">
+                    <i class="fa fa-address-book py-1" aria-hidden="true"></i>
+                    <span class="hidden text-white duration-300 scale-x-0 group-hover:scale-x-100 group-hover:block">Kontakt aufnehmen</span>
+                </a>
+                <a class="flex group items-center space-x-2 text-2xl p-4 bg-brown rounded-l-md transition-all" href="#">
+                    <i class="fa fa-linkedin-square py-1" aria-hidden="true"></i>
+                    <span class="hidden text-white duration-300 scale-x-0 group-hover:scale-x-100 group-hover:block">Linkedin</span>
+                </a>
+                <a class="flex group items-center space-x-2 text-2xl p-4 bg-darkYellow rounded-l-md duration-300" href="#">
+                    <i class="fa fa-instagram py-1" aria-hidden="true"></i>
+                    <span class="hidden text-white duration-300 scale-x-0 group-hover:scale-x-100 group-hover:block">Instagram</span>
+                </a>
+            </div>
+            <div class="absolute left-0 bottom-0 w-full grid grid-cols-4 items-center">
+                <p class="px-10 text-center">LIREAL – bewirtschaftet effizient und renditeorientiert über den gesamten Lebenszyklus von Immobilien.</p>
+                <a href="#" class="group flex items-center relative text-3xl justify-center space-x-3 p-[60px] bg-[url('../assets/building.png')] bg-cover bg-no-repeat after:duration-300 after:ease-in-out after:w-full after:h-full after:absolute hover:after:bg-opacity-40 hover:after:bg-darkYellow">
+                    <span class="px-2 font-semibold z-10">Referenzen</span>
+                    <i class="fa fa-arrow-right ml-2 z-10 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i>
+                </a>
+                <a href="#" class="group flex items-center relative text-3xl justify-center space-x-3 p-[60px] bg-[url('../assets/image-2.png')] bg-cover bg-no-repeat after:duration-300 after:ease-in-out after:w-full after:h-full  after:absolute hover:after:bg-opacity-40 hover:after:bg-darkYellow">
+                    <span class="px-2 font-semibold z-10">Immobilienangebote</span>
+                    <i class="fa fa-arrow-right ml-2 z-10 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i>
+                </a>
+                <a href="#" class="group flex items-center relative text-3xl justify-center space-x-3 p-[60px] bg-[url('../assets/image-3.png')] bg-cover bg-no-repeat after:duration-300 after:ease-in-out after:w-full after:h-full after:absolute hover:after:bg-opacity-40 hover:after:bg-darkYellow">
+                    <span class="px-2 font-semibold z-10">Karriere</span>
+                    <i class="fa fa-arrow-right ml-2 z-10 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto mt-40 px-36">
+            <h2 class="text-darkYellow text-5xl font-semibold">Lireal</h2>
+            <h3 class="text-3xl mt-4 mb-7">Ihr Immobilienprofi in Dortmund</h3>
+            <div class="grid grid-cols-2 gap-x-10">
+                <div>
+                    <p>
+                        Wir, die LIREAL GmbH, konzentrieren uns auf die Geschäftsbereiche Immobilienverwaltung, Immobilienvermietung und Immobilienverkauf für nationale, internationale, private und institutionelle Investoren. Wir sind ein Inhabergeführtes Unternehmen mit Hauptstandort in Dortmund und einem Nebensitz in Düsseldorf. LIREAL – bewirtschaftet effizient und renditeorientiert über den gesamten Lebenszyklus von Immobilien. LIREAL – begleitet zuverlässig den kompletten Vermietungsprozess von Immobilien aller Art. LIREAL – berät kompetent, objektiv und professionell bei An- und Verkäufen von Immobilien.
+                    </p>
+                    <ul class="flex flex-col space-y-2 mt-7">
+                        <li class="font-semibold"><span class="text-darkYellow">LIREAL - </span>effizient und renditeorientiert über den gesamten Lebenszyklus von Immobilien. </li>
+                        <li class="font-semibold"><span class="text-darkYellow">LIREAL - </span>begleitet zuverlässig den kompletten Vermietungsprozess von Immobilien aller Art. </li>
+                        <li class="font-semibold"><span class="text-darkYellow">LIREAL - </span>berät kompetent, objektiv und professionell bei An- und Verkäufen von Immobilien. </li>
+                    </ul>
+                </div>
+                <article class="flex flex-col space-y-4">
+                    <p>
+                        Somit decken wir das Immobiliengeschäft in seiner ganzen Vielfalt ab und stehen Ihnen als kompetenter Partner zur Seite. Durch unsere langjährige Erfahrung unterstützen wir Sie optimal bei Ihrer Entscheidungsfindung rund um die Immobilie.
+                    </p>
+                    <p> 
+                        Erhalten Sie wissenswerte Informationen über die Geschäftsführung, aktuelle Neuigkeiten über unser Unternehmen sowie die Möglichkeit mit uns in Kontakt zu treten. Erfahren Sie mehr über unsere Mitgliedschaft in der Royal Institution of Chartered Surveyors (RICS) und den damit verbundenen fachlichen und ethischen Standards, die unser tägliches Handeln bestimmen.
+                    </p>
+                </article>
+            </div>
+            <hr class="max-w-[1632px] my-20 mx-auto">
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-10">
+            <div class="flex flex-col space-y-5">
+                <div class="grid grid-cols-2">
+                    <div class="p-[100px] min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
+                        <h2 class="text-darkYellow text-5xl font-semibold">Ihre Immobilie in guten Händen</h2>
+                        <h3 class="text-3xl mt-4 mb-7">Verwaltung</h3>
+                        <p class="mb-[60px]">Wir bewirtschaften Eigentümer­gemeinschaften, Mehrfamilienhäuser, Wohn- und Geschäftshäuser sowie Büro- und Gewerbeimmobilien – effzient, renditeorientiert und professionell. Die von uns betreuten Immobilien werden nach fest definierten Zielen und Vorgaben geführt. Sie erhalten ein auf Ihre Bedürfnisse abgestimmtes Berichtswesen mit allen Daten und Fakten die Sie benötigen. Unsere Dienstleistungen umfassen das kaufmännische, buchhalterische und technische Immobilienmanagement.</p>
+                        <a href="#" class="group bg-white font-semibold bg-opacity-80 py-4 px-5 flex items-center rounded-md shadow-md w-fit hover:bg-opacity-90">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    </div>
+                    <div>
+                        <img class="w-full h-full" src="./assets/main-image-1.png" alt="Man and woman are looking at computer and smiling">
+                    </div>
+                </div>
+                <div class="grid grid-cols-2">
+                    <div>
+                        <img class="w-full h-full" src="./assets/main-image-2.png" alt="Man and woman are looking at the camera that ar shooting a photo and smmiling, also woman is typing on keyboard">
+                    </div>
+                    <div class="p-[100px] min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
+                        <h2 class="text-darkYellow text-5xl font-semibold">Den idealen Mieter finden</h2>
+                        <h3 class="text-3xl mt-4 mb-7">Vermietung</h3>
+                        <p class="mb-[60px]">Wir begleiten Ihren Vermietungsprozess vom ersten bis zum letzten Schritt, angefangen bei der Objektanalyse und Preisermittlung bis hin zur Vertragsgestaltung und Übergabe.</p>
+                        <a href="#" class="group bg-white font-semibold bg-opacity-80 py-4 px-5 flex items-center rounded-md shadow-md w-fit hover:bg-opacity-90">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2">
+                    <div class="p-[100px] min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
+                        <h2 class="text-darkYellow text-5xl font-semibold">Für jede Immobilie die passenden Käufer</h2>
+                        <h3 class="text-3xl mt-4 mb-7">Verkauf</h3>
+                        <p class="mb-[60px]">Bei dem Verkauf Ihrer Immobilie ist es ratsam professionelle Hilfe in Anspruch zu nehmen. Wir übernehmen alle Aufgaben von der Erstberatung und Analyse des Objektes bis hin zur notariellen Beurkundung und der Objektübergabe.</p>
+                        <a href="#" class="group bg-white font-semibold bg-opacity-80 py-4 px-5 flex items-center rounded-md shadow-md w-fit hover:bg-opacity-90">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    </div>
+                    <div>
+                        <img class="w-full h-full" src="./assets/main-image-3.png" alt="Two men are looking at computer and smiling">
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 !m-0">
+                    <div class="p-[100px] pb-20 flex flex-col justify-center bg-gradient-to-br from-lightYellow to-darkYellow">
+                        <h3 class="text-3xl">Referenzen</h3>
+                        <p class="mt-4 mb-[60px]">Auf unserer Portfolio-Seite möchten wir Ihnen gerne einige unserer Referenzobjekte aus den Bereichen Verkauf, Vermietung und Verwaltung vorstellen.</p>
+                        <a href="#" class="group bg-white font-semibold py-4 px-5 flex items-center rounded-md shadow-md w-fit bg-opacity-80 hover:bg-opacity-90">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    </div>
+                    <div class="p-[100px] pb-20 flex flex-col justify-center bg-red-300">
+                        <h3 class="text-3xl">Referenzen</h3>
+                        <p class="mt-4 mb-[60px]">Auf unserer Portfolio-Seite möchten wir Ihnen gerne einige unserer Referenzobjekte aus den Bereichen Verkauf, Vermietung und Verwaltung vorstellen.</p>
+                        <a href="#" class="group bg-white font-semibold py-4 px-5 flex items-center rounded-md shadow-md w-fit bg-opacity-80 hover:bg-opacity-90">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    </div>
+                    <div class="p-[100px] pb-20 flex flex-col justify-center text-white bg-darkGrey">
+                        <h3 class="text-3xl">Referenzen</h3>
+                        <p class="mt-4 mb-[60px]">Auf unserer Portfolio-Seite möchten wir Ihnen gerne einige unserer Referenzobjekte aus den Bereichen Verkauf, Vermietung und Verwaltung vorstellen.</p>
+                        <a href="#" class="group bg-white font-semibold text-black py-4 px-5 flex items-center rounded-md shadow-md w-fit bg-opacity-80 hover:bg-opacity-90">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="max-w-[1632px] my-20 mx-auto">
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto grid grid-cols-2 px-10">
+            <div>
+                <div class="p-[100px] pr-28 h-2/4 flex flex-col justify-center bg-lightBeige">
+                    <h2 class="text-5xl font-semibold">Unternehmen</h2>
+                    <p class="my-7 mb-16">Hier erhalten Sie wissenswerte Informationen über die Geschäftsführung, aktuelle Neuigkeiten über unser Unternehmen sowie die Möglichkeit mit uns in Kontakt zu treten. Erfahren Sie mehr über unsere Mitgliedschaft in der Royal Institution of Chartered Surveyors (RICS) und den damit verbundenen fachlichen und ethischen Standards, die unser tägliches Handeln bestimmen.</p>
+                    <a href="#" class="group bg-white font-semibold text-black py-4 px-5 flex items-center rounded-md shadow-md w-fit bg-opacity-80 hover:bg-opacity-90">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                </div>
+                <div class="pl-[100px] py-14 pr-16 h-2/4 flex flex-col justify-center bg-gradient-to-br from-lightYellow to-darkYellow">
+                    <h3 class="text-3xl">Meine.lireal</h3>
+                    <div class="flex space-x-[60px] mt-4 items-center">
+                        <p>Bleiben Sie immer auf dem Laufenden durch unser digitales Serviceportal. Durch unsere Serviceportallösung meine.lireal bieten wir unseren Kunden ab sofort einen eigenen digitalen Informations- und Servicebereich für PC, Smartphone und Tablet an. Dadurch stehen Ihnen unsere Informationen und Services rund um die Uhr zur Verfügung.</p>
+                        <a href="#" class="group whitespace-nowrap bg-white font-semibold py-4 px-5 flex items-center rounded-md shadow-md w-fit bg-opacity-80 hover:bg-opacity-90">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="w-full h-full" src="./assets/red-building.png" alt="Red building">
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <footer>
+        <div class="container mx-auto">
+            <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.3643590477486!2d7.509864715769309!3d51.48818087963198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b91766416cb8cf%3A0xd92367b6a1151019!2sLIREAL%20GmbH%20-%20Immobilienverwaltung%20und%20-vermittlung!5e0!3m2!1ska!2sge!4v1657214693152!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="flex">
+                <div class="w-[350px] aspect-square flex justify-center items-center bg-darkGrey">
+                    <img src="./assets/logo.png" alt="logo">
+                </div>
+                <div class="w-full h-[350px] bg-lightBeige flex space-x-10 items-center justify-center">
+                    <div>
+                        <h3 class="text-3xl text-darkYellow font-semibold mb-3">Kontakt</h3>
+                        <div class="flex space-x-20 text-sm">
+                            <div class="flex flex-col space-y-2">
+                                <span class="font-semibold">Lireal GmbH</span>
+                                <span>Phoenixseestr.17</span>
+                                <span>44263 Dortmund</span>
+                            </div>
+                            <div class="flex flex-col space-y-2">
+                                <a href="tel:+49(0)231700600-0"><span class="font-semibold">Tel.:</span>+49(0) 231 700600-0</a>
+                                <a href="tel:+49(0)231700600-44"><span class="font-semibold">Tel.:</span>+49(0) 231 700600-44</a>
+                                <a href="mailto:mail@li-real.de">mail@li-real.de</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-2/4">
+                        <h3 class="text-3xl text-darkYellow font-semibold mb-3">Mitgliedschaften</h3>
+                        <div class="flex justify-between items-center">
+                            <a class="block w-32 h-auto" href="#"><img class="w-full h-full" src="./assets/vdiv-logo.svg" alt="vdiv logo"></a>
+                            <a class="block w-[120px] h-auto" href="#"><img class="w-full h-full" src="./assets/rics-logo.svg" alt="RICS logo"></a>
+                            <a class="block w-12 h-auto" href="#"><img class="w-full h-full" src="./assets/partner-2021.svg" alt="partner-2021"></a>
+                            <div>
+                                <a class="block w-[100px] h-auto" href="#"><img class="w-full h-full" src="./assets/google-logo.svg" alt="google logo"></a>
+                                <div class="flex-items-center space-x-2 my-2 text-xl text-darkYellow">
+                                    <span class="text-black font-semibold">4.5</span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <span class="block text-[13px]">97 Rezensionen</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[100px] flex items-center justify-between bg-darkBeige text-sm font-semibold pl-20 pr-10">
+                <a class="uppercase" href="#">impressum</a>
+                <a class="uppercase" href="#">datenshutz</a>
+                <a class="uppercase text-darkGrey opacity-40" href="#">cookies</a>
+                <span class="font-normal">Copyright © 2017 by LIREAL GmbH</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
