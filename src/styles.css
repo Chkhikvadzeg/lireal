@@ -160,3 +160,7 @@
 .question-dropdown-button.active {
     transform: rotate(-180deg);
 }
+
+.image-bookmark {
+    clip-path: polygon(100% 0%, 100% 100%, 50% 75%, 0 100%, 0 0);
+}
