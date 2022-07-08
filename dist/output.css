@@ -572,6 +572,10 @@ html {
   }
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -636,6 +640,16 @@ html {
   margin-bottom: 0.5rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -670,6 +684,22 @@ html {
 
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.mt-\[150px\] {
+  margin-top: 150px;
+}
+
+.ml-\[200px\] {
+  margin-left: 200px;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .block {
@@ -722,6 +752,26 @@ html {
   height: 100px;
 }
 
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[482px\] {
+  height: 482px;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[502px\] {
+  height: 502px;
+}
+
+.h-\[3px\] {
+  height: 3px;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -772,8 +822,16 @@ html {
   width: 100px;
 }
 
-.max-w-\[1632px\] {
-  max-width: 1632px;
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[760px\] {
+  width: 760px;
 }
 
 .max-w-fit {
@@ -782,13 +840,31 @@ html {
   max-width: fit-content;
 }
 
+.max-w-\[1632px\] {
+  max-width: 1632px;
+}
+
+.max-w-\[709px\] {
+  max-width: 709px;
+}
+
 .-translate-y-1\/2 {
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .scale-x-0 {
   --tw-scale-x: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-y-0 {
+  --tw-scale-y: 0;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -899,6 +975,18 @@ html {
   margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-\[105px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(105px * var(--tw-space-x-reverse));
+  margin-left: calc(105px * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-20 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -909,6 +997,10 @@ html {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-r-md {
@@ -927,6 +1019,23 @@ html {
 
 .border-r {
   border-right-width: 1px;
+}
+
+.border-l-\[5px\] {
+  border-left-width: 5px;
+}
+
+.border-b-\[5px\] {
+  border-bottom-width: 5px;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-brown {
+  --tw-border-opacity: 1;
+  border-color: rgb(159 112 66 / var(--tw-border-opacity));
 }
 
 .border-r-gray-200 {
@@ -1018,6 +1127,14 @@ html {
   background-image: url('../assets/red-building.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/kontakt-4-1\.png\'\)\] {
+  background-image: url('../assets/kontakt-4-1.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-4-2\.png\'\)\] {
+  background-image: url('../assets/kontakt-4-2.png');
+}
+
 .from-lightYellow {
   --tw-gradient-from: #F5D166;
   --tw-gradient-to: rgb(245 209 102 / 0);
@@ -1058,6 +1175,10 @@ html {
 
 .p-\[100px\] {
   padding: 100px;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-20 {
@@ -1143,6 +1264,22 @@ html {
   padding-right: 2.5rem;
 }
 
+.pl-36 {
+  padding-left: 9rem;
+}
+
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
+.pl-32 {
+  padding-left: 8rem;
+}
+
+.pr-40 {
+  padding-right: 10rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1178,6 +1315,10 @@ html {
 
 .text-\[13px\] {
   font-size: 13px;
+}
+
+.text-\[100px\] {
+  font-size: 100px;
 }
 
 .font-semibold {
@@ -1218,6 +1359,11 @@ html {
 .text-darkGrey {
   --tw-text-opacity: 1;
   color: rgb(100 100 100 / var(--tw-text-opacity));
+}
+
+.text-brown {
+  --tw-text-opacity: 1;
+  color: rgb(159 112 66 / var(--tw-text-opacity));
 }
 
 .opacity-40 {
@@ -1469,6 +1615,26 @@ html {
 .hero {
   margin-top: 150px;
   height: calc(100vh - 150px);
+}
+
+/* KONTAKT-4 */
+
+.dropdown-answer{
+  transition: all .3s ease-in-out;
+}
+
+.question-dropdown.active p {
+  position: static;
+  display: block;
+  transform: scaleY(1) translateY(0);
+}
+
+.question-dropdown-button {
+  transition: all .3s ease-in-out;
+}
+
+.question-dropdown-button.active {
+  transform: rotate(-180deg);
 }
 
 .after\:absolute::after {
