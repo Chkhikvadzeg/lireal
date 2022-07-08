@@ -1287,6 +1287,42 @@ html {
   background-image: url('../assets/kontakt-6-1.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/h\'\)\] {
+  background-image: url('../assets/h');
+}
+
+.bg-\[url\(\'\.\.\/assets\/ho\'\)\] {
+  background-image: url('../assets/ho');
+}
+
+.bg-\[url\(\'\.\.\/assets\/hou\'\)\] {
+  background-image: url('../assets/hou');
+}
+
+.bg-\[url\(\'\.\.\/assets\/hous\'\)\] {
+  background-image: url('../assets/hous');
+}
+
+.bg-\[url\(\'\.\.\/assets\/house\'\)\] {
+  background-image: url('../assets/house');
+}
+
+.bg-\[url\(\'\.\.\/assets\/house-1\'\)\] {
+  background-image: url('../assets/house-1');
+}
+
+.bg-\[url\(\'\.\.\/assets\/house-1\.\'\)\] {
+  background-image: url('../assets/house-1.');
+}
+
+.bg-\[url\(\'\.\.\/assets\/house-1\.j\'\)\] {
+  background-image: url('../assets/house-1.j');
+}
+
+.bg-\[url\(\'\.\.\/assets\/house-1\.jp\'\)\] {
+  background-image: url('../assets/house-1.jp');
+}
+
 .from-lightYellow {
   --tw-gradient-from: #F5D166;
   --tw-gradient-to: rgb(245 209 102 / 0);
