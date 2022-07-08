@@ -690,6 +690,14 @@ html {
   margin-top: 150px;
 }
 
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .ml-\[200px\] {
   margin-left: 200px;
 }
@@ -700,6 +708,10 @@ html {
 
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .block {
@@ -756,6 +768,14 @@ html {
   height: 700px;
 }
 
+.h-\[150px\] {
+  height: 150px;
+}
+
+.h-\[3px\] {
+  height: 3px;
+}
+
 .h-\[482px\] {
   height: 482px;
 }
@@ -766,10 +786,6 @@ html {
 
 .h-\[502px\] {
   height: 502px;
-}
-
-.h-\[3px\] {
-  height: 3px;
 }
 
 .min-h-full {
@@ -872,6 +888,18 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -886,6 +914,10 @@ html {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-end {
@@ -907,6 +939,11 @@ html {
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
+}
+
+.gap-x-\[100px\] {
+  -moz-column-gap: 100px;
+       column-gap: 100px;
 }
 
 .space-x-24 > :not([hidden]) ~ :not([hidden]) {
@@ -975,16 +1012,28 @@ html {
   margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-\[105px\] > :not([hidden]) ~ :not([hidden]) {
+.space-x-\[100px\] > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(105px * var(--tw-space-x-reverse));
-  margin-left: calc(105px * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(100px * var(--tw-space-x-reverse));
+  margin-left: calc(100px * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-20 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+}
+
+.space-x-\[105px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(105px * var(--tw-space-x-reverse));
+  margin-left: calc(105px * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .whitespace-nowrap {
@@ -1127,12 +1176,96 @@ html {
   background-image: url('../assets/red-building.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/kontakt-4-1\.png\'\)\] {
-  background-image: url('../assets/kontakt-4-1.png');
+.bg-\[url\(\'\.\.\/assets\/kontakt-3-1\.png\'\)\] {
+  background-image: url('../assets/kontakt-3-1.png');
 }
 
 .bg-\[url\(\'\.\.\/assets\/kontakt-4-2\.png\'\)\] {
   background-image: url('../assets/kontakt-4-2.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-4-1\.png\'\)\] {
+  background-image: url('../assets/kontakt-4-1.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-3-\.png\'\)\] {
+  background-image: url('../assets/kontakt-3-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-3\.png\'\)\] {
+  background-image: url('../assets/kontakt-3.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt\.png\'\)\] {
+  background-image: url('../assets/kontakt.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontak\.png\'\)\] {
+  background-image: url('../assets/kontak.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/konta\.png\'\)\] {
+  background-image: url('../assets/konta.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kont\.png\'\)\] {
+  background-image: url('../assets/kont.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kon\.png\'\)\] {
+  background-image: url('../assets/kon.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/ko\.png\'\)\] {
+  background-image: url('../assets/ko.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/k\.png\'\)\] {
+  background-image: url('../assets/k.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\.png\'\)\] {
+  background-image: url('../assets/.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/b\.png\'\)\] {
+  background-image: url('../assets/b.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/bu\.png\'\)\] {
+  background-image: url('../assets/bu.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/bui\.png\'\)\] {
+  background-image: url('../assets/bui.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/buil\.png\'\)\] {
+  background-image: url('../assets/buil.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/build\.png\'\)\] {
+  background-image: url('../assets/build.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/buildi\.png\'\)\] {
+  background-image: url('../assets/buildi.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/buildin\.png\'\)\] {
+  background-image: url('../assets/buildin.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/rbuilding\.png\'\)\] {
+  background-image: url('../assets/rbuilding.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/rebuilding\.png\'\)\] {
+  background-image: url('../assets/rebuilding.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/redbuilding\.png\'\)\] {
+  background-image: url('../assets/redbuilding.png');
 }
 
 .from-lightYellow {
@@ -1236,6 +1369,31 @@ html {
   padding-bottom: 3.5rem;
 }
 
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -1315,6 +1473,10 @@ html {
 
 .text-\[13px\] {
   font-size: 13px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .text-\[100px\] {
@@ -1419,6 +1581,10 @@ html {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .hamburger {
@@ -1623,7 +1789,7 @@ html {
   transition: all .3s ease-in-out;
 }
 
-.question-dropdown.active p {
+.question-dropdown.active .dropdown-answer {
   position: static;
   display: block;
   transform: scaleY(1) translateY(0);

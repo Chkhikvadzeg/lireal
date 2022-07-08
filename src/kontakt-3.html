@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lireal Landing Page</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="container mx-auto p-10 bg-white flex items-center  h-fit shadow-xl fixed left-0 right-0 top-0 z-10">
+            <a class="block h-[69px]" href="..//index.html"><img class="w-full h-full" src="../assets/logo.png" alt="logo"></a>
+            <nav class="mx-auto">
+                
+                <ul class="flex space-x-24">
+                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Vermietung</a></li>
+                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="./kontakt-4.html">Verwaltung</a></li>
+                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verkauf</a></li>
+                </ul>
+            </nav>
+            <div class="aside-menu">
+                <button class="hamburger">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                </button>
+                <nav class="menu absolute flex flex-col -right-full top-0 min-h-full px-20 py-10 space-y-5 bg-darkBeige bg-opacity-80">
+                    <div class="flex justify-between">
+                        <div class="flex w-[512px] rounded-md shadow-lg bg-white">
+                            <input class="border-0 w-full h-full p-4 focus-within:outline-none " type="search" name="search" id="search" placeholder="Suche">
+                            <button class="text-2xl rounded-r-md  p-3 bg-lightYellow "><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                        <button class="aside-menu-hamburger active">
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                        </button>
+                    </div>
+                    <ul class="flex flex-col space-y-6 mb-10">
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Home</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Vermieutung</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verwaltung</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verkauf</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Referenzen</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Immobilienangebote</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Unternehmen</a></li>
+                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Karriere</a></li>
+                    </ul>
+                    <div class="w-full p-10 bg-white bg-opacity-75 backdrop-blur-lg flex items-center space-x-10 shadow-lg rounded-lg">
+                        <div class="w-1/2 flex flex-col space-y-3">
+                            <span class="block">Jetzt ganz einfach personlich beraten lassen.</span>
+                            <a href="#" class="group bg-white font-semibold py-4 px-5 flex items-center max-w-fit rounded-md hover:bg-opacity-90 shadow-md hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                        </div>
+                        <div class="w-1/2">
+                            <img src="../assets/buildings.svg" alt="buildings">
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="flex items-center justify-between">
+                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Kontakt</a></li>
+                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Impressum</a></li>
+                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Datenschutz</a></li>
+                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">FAQ's</a></li>
+                            <li class="py-2 px-6"><a href="#">AGB</a></li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="mt-[150px]">
+        <div class="container relative mx-auto flex items-end pl-36 pb-36 h-[700px] bg-[url('../assets/main-image-1.png')] bg-center bg-no-repeat bg-cover text-white">
+            <h1 class="drop-shadow-sm text-[114px] leading-[140px] font-semibold tracking-widest">
+                Verwaltung
+            </h1>
+            <div class="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col items-end space-y-2">
+                <a class="flex group items-center space-x-2 text-2xl p-4  bg-darkBeige rounded-l-md duration-300" href="#">
+                    <i class="fa fa-address-book py-1" aria-hidden="true"></i>
+                    <span class="hidden text-white duration-300 scale-x-0 group-hover:scale-x-100 group-hover:block">Kontakt aufnehmen</span>
+                </a>
+                <a class="flex group items-center space-x-2 text-2xl p-4 bg-brown rounded-l-md transition-all" href="#">
+                    <i class="fa fa-linkedin-square py-1" aria-hidden="true"></i>
+                    <span class="hidden text-white duration-300 scale-x-0 group-hover:scale-x-100 group-hover:block">Linkedin</span>
+                </a>
+                <a class="flex group items-center space-x-2 text-2xl p-4 bg-darkYellow rounded-l-md duration-300" href="#">
+                    <i class="fa fa-instagram py-1" aria-hidden="true"></i>
+                    <span class="hidden text-white duration-300 scale-x-0 group-hover:scale-x-100 group-hover:block">Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-36 mt-40">
+            <h2 class="text-darkYellow text-5xl font-semibold">Immobilienmanagement</h2>
+            <h3 class="text-3xl mt-4 mb-7">- Werte schaffen</h3>
+            <div class="grid gap-x-[100px] mb-[100px] grid-cols-2 items-start">
+                <div class="flex flex-col space-y-5">
+                    <p>Unser Immobilienmanagement steht für eine effiziente und renditeorientierte Bewirtschaftung über den gesamten Lebenszyklus von Immobilien. Wir betreuen Immobilien –von der Entwicklung über die kaufmännische und technische Bewirtschaftung bis hin zur Vermarktung Ihrer Immobilie – und stehen Ihnen als kompetenter Partner zur Seite.</p>
+                    <p> Wir bewirtschaften Eigentümergemeinschaften, Mehrfamilienhäuser, Wohn- und Geschäftshäuser sowie Büro- und Gewerbeimmobilien – effizient, renditeorientiert und professionell. Die von uns betreuten Immobilien werden nach fest definierten Zielen und Vorgaben geführt.</p>
+                </div>
+                    <p>Durch unser aktives Vertrags-, Flächen und Mietermanagement schaffen wir für Sie zusätzliche Immobilienwerte. Geben Sie Ihre Immobilie in sichere Hände und profitieren von unserer umfassenden und langjährigen Erfahrung.</p>
+            </div>
+            <div class="grid grid-cols-2 h-[150px] text-3xl font-semibold">
+                <a class="flex justify-center items-center bg-darkYellow" href="#mietverwaltung">Mietverwaltung</a>
+                <a class="flex justify-center items-center bg-darkGrey text-white" href="#verwaltung">WEG-Verwaltung</a>
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <section id="mietverwaltung">
+        <div class="container mx-auto px-10">
+            <div class="grid grid-cols-2 mb-[100px]">
+                <div class="bg-[url('../assets/kontakt-3-1.png')] bg-cover bg-no-repeat bg-center"></div>
+                <div class="px-[100px] py-20 min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
+                    <h2 class="text-darkYellow text-5xl font-semibold">Management von Wohnimmobilien</h2>
+                    <h3 class="text-3xl mt-4 mb-7">Mietverwaltung</h3>
+                    <article class="flex flex-col space-y-5">
+                        <p>Im Bereich Wohnimmobilien betreuen wir Mehrfamilienhäuser sowie gemischt genutzte Immobilien mit überwiegend wohnungswirtschaftlicher Nutzung und kümmern uns um die komplette kaufmännische und technische Bewirtschaftung Ihrer Immobilien. </p>
+                        <p> Wir bewirtschaften sowohl kleinere Wohngebäude als Einzelinvestment als auch mehrere Immobilien als Portfolio. Uns ist es wichtig, die von uns betreuten Immobilien nach gemeinsam definierten Zielen zu bewirtschaften –transparent, renditeorientiert und effizient. Wir bewirtschaften Ihre Immobilie aktiv und entwickeln nach Maßgabe Ihrer Renditevorgaben die Immobilie zu einem sicheren Investment. Wir zeigen Ihnen von uns aus Wertschöpfungspotentiale sowie Kostensenkungsmöglichkeiten bei den Bewirtschaftungs- und Instandhaltungskosten auf. </p>
+                        <p>Sie erhalten ein auf Ihre Bedürfnisse abgestimmtes Berichtswesen mit allen Daten und Fakten die Sie benötigen. </p>
+                        <p> Unsere Dienstleistungen im Wohnimmobilienmanagement umfassen die kaufmännische, buchhalterische und technische Betreuung sowie die Vermietung. Unser detailliertes Leistungsangebot finden Sie hier.</p>
+                        <p>Nehmen Sie mit uns Kontakt auf und fordern Sie hier Ihr </p>
+                    </article>
+                </div>
+            </div>
+            <div class="px-[100px]">
+                <h2 class="text-darkYellow text-5xl font-semibold mb-7">Unsere Dienstleistungen</h2>
+                <article class="flex space-x-[100px]">
+                    <p>Unsere Dienstleistungen umfassen das kaufmännische, buchhalterische und technische Immobilienmanagement. Nachfolgend erhalten Sie einen Auszug unseres Leistungsangebotes.</p>
+                    <p>Sie möchten mehr oder weniger Leistungen von uns ausführen lassen? Überhaupt kein Problem, Sie bestimmen unseren Leistungsumfang und erweitern bzw. reduzieren somit die nachfolgenden Leistungsbausteine ganz individuell.</p>
+                </article>
+                <hr class="my-10">
+                <div class="flex flex-col space-y-20">
+                    <div class="question-dropdown">
+                        <div class="flex items-center justify-between text-brown text-3xl">
+                            <h3>kaufmännisches und buchhalterisches Immobilienmanagement</h3>
+                            <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                        </div>
+                        <hr class="bg-darkBeige h-[3px] my-5">
+                        <div class="grid grid-cols-2 gap-x-[100px] text-[15px]">
+                            <ul class="dropdown-answer hidden scale-y-0 list-disc list-inside">
+                                <li class="mb-5">Vertretung des Eigentümers gegenüber Behörden, Städten, Versorgern und Dienstleistern</li>
+                                <li class="mb-5">Vertretung gegenüber Mietern und Kunden</li>
+                                <li class="mb-5">Mietvertragsmanagement, d.h. Auswahl und Abschluss von Mietverträgen bei Neuvermietung, Durchführung von Verhandlungen über Mietvertragsverlängerung, Beendigung und Begleitung des Kündigungsprozesses</li>
+                                <li class="mb-5">Übergabe und Rücknahme von Mietflächen</li>
+                                <li class="mb-5">Miet- und Objektbuchhaltung</li>
+                                <li>Vorbereitung der Umsatzsteuervoranmeldung</li>
+                            </ul>
+                            <ul class="dropdown-answer hidden scale-y-0 list-disc list-inside">
+                                <li class="mb-5">Mietinkasso nebst Mahnwesen, Forderungsmanagement</li>
+                                <li class="mb-5">Budgetplanung, Budgetverfolgung zur Bewirtschaftung des Objektes</li>
+                                <li class="mb-5">Erstellung der Betriebs- und Heizkostenabrechnungen gegenüber der Mieter</li>
+                                <li class="mb-5">Regelmäßiges, mit dem Eigentümer abgestimmtes Reporting</li>
+                                <li class="mb-5">Entwicklung und Realisierung von Objektstrategien</li>
+                                <li class="mb-5">Versicherungsmanagement</li>
+                                <li>etc.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="question-dropdown">
+                        <div class="flex items-center justify-between text-brown text-3xl">
+                            <h3>Braucht man bei Wohnungsinteresse eine SCHUFA-Auskunft?</h3>
+                            <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                        </div>
+                        <hr class="bg-darkBeige h-[3px] my-5">
+                        <div class="grid grid-cols-2 gap-x-[100px] text-[15px]">
+                            <ul class="dropdown-answer hidden scale-y-0 list-disc list-inside">
+                                <li class="mb-5">Pflege des technischen Zustandes der Immobilien</li>
+                                <li class="mb-5">Sicherstellung des laufenden Betriebes und der Bewirtschaftung der Immobilien</li>
+                                <li class="mb-5">Ausschreibung, Vergabe und Überwachung Dienstleistungsverträgen,</li>
+                                <li class="mb-5">Instandhaltungs-, Instandsetzungs- und Wartungsarbeiten</li>
+                                <li>Verfolgung von Gewährleistungsansprüchen</li>
+                            </ul>
+                            <ul class="dropdown-answer hidden scale-y-0 list-disc list-inside">
+                                <li class="mb-5">Optimierung der Bewirtschaftungskosten durch Abschluss von Rahmenverträgen, Neuausschreibungen von Dienstleistungsverträgen oder Modernisierungsstrategien</li>
+                                <li class="mb-5">Planung, Steuerung und Überwachung von umfassenden Instandhaltungs- und Modernisierungsmaßnahmen</li>
+                                <li class="mb-5">Beauftragung und Kündigung von Dienstleistern</li>
+                                <li class="mb-5">Kontrolle der beauftragen Dienstleister</li>
+                                <li>etc.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <section>
+        <div class="container mx-auto pl-36 pr-40">
+            <h2 class="text-darkYellow text-5xl font-semibold">FAQ</h2>
+            <h3 class="text-3xl mt-4">Häufig gestellte Fragen zum Thema Mietverwaltung</h3>
+            <hr class="max-w-[1632px] my-10 mx-auto">
+            <div class="flex flex-col space-y-20">
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist eine Hausordnung?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Die Hausordnung ist eine Sammlung von Vorschriften, die für die Benutzung des Hauses und der Wohnungen erlassen werden kann.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Hausordnungen dürfen keine Bestimmungen enthalten, die den allgemein gültigen Gesetzen widersprechen.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Welche Ruhezeiten müssen eingehalten werden?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Jede vermeidbare Lärmbelästigung ist zu unterlassen. An Werktagen ist die Mittagsruhe von 13:00 Uhr bis 15:00 Uhr und Nachtruhe von 22:00 Uhr bis 7:00 Uhr einzuhalten.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Sonn- und Feiertage sind ebenfalls insgesamt als Ruhezeiten zu beachten. Musikinstrumente, TV, Radio, Spielkonsolen oder Ähnliches dürfen grundsätzlich nicht über Zimmerlautstärke betrieben werden.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Muss ich den Vermieter informieren, wenn sich die Anzahl der Bewohner in meiner Wohnung ändert?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Ein- und Auszüge von Personen oder auch die Geburt eines Kindes während der Mietzeit sind dem Vermieter mitzuteilen.
+                    </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Da die Betriebskosten gegebenenfalls angepasst werden müssen, können so unnötig hohe Nachzahlungen vermieden werden.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist der Unterschied zwischen Kalt- und Warmmiete?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Die Kaltmiete, auch Nettomiete genannt, umfasst, wie der Name es schon erahnen lässt, die kalte Miete einer Wohnung oder eines Hauses und wird vom Vermieter beziehungsweise Eigentümer dafür erhoben, dass der Mieter sein Eigentum nutzen darf.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Die Warmmiete, auch Bruttomiete genannt, ist die Kaltmiete inklusive der anfallenden Nebenkosten. Bei diesen Nebenkosten handelt es sich im Regelfall um die Betriebskosten, welche gesetzlich geregelt sind.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was kostet eine Mietverwaltung?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            In der Regel bemisst sich die Verwaltervergütung nach einem Pauschalbetrag pro Wohneinheit und bei Gewerbeimmobilien nach individuellem Angebot oder als Prozentsatz der Sollmiete. Die Verwaltergebühr ist u. a. abhängig von der Anzahl der zu verwaltenden Einheiten, Lage, Mieterstruktur, Alter der Immobilien, Sanierungsstand, technischer Ausstattung sowie dem zu erbringenden Leistungsumfang und bewegt sich für das komplette Leistungspaket der Verwaltung (außer Vermietung) je Wohneinheit in einer Spanne zwischen 20,00 Euro und 35,00 Euro je Wohneinheit/Monat zzgl. Umsatzsteuer.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Üblich ist es, einige wenige unregelmäßige oder nur im Einzelfall entstehende Leistungen separat zu vergüten (bspw. Sanierung/Instandhaltung ab einer bestimmten Größenordnung). Bitte beachten Sie: Je mehr Einheiten die Immobilie hat und je jünger sie ist, desto niedriger ist die Verwaltergebühr je Einheit.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Bis wann muss die Miete bezahlt werden? Ist auch eine Zahlung zum 15. Eines Monats möglich?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        Die Miete ist zu Beginn, spätestens bis zum 3. Werktag eines Monats zur Zahlung fällig. Eine spätere Zahlung ist leider nicht möglich. Lesen Sie hierzu bitte auch die Vereinbarung in Ihrem Mietvertrag.
+                    </p>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was muss ich tun, wenn mein/e Partner/in ausziehen möchte?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Möchten Sie die Wohnung alleine behalten, so benötigen wir einen Nachweis anhand aktueller Unterlagen (bspw. eine erneute Selbstauskunft oder eine Gehaltsbescheinigung), dass Sie die Miete aufbringen können.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Die Unterlagen werden nach unserer Prüfung zur Entscheidung beim Eigentümer vorgelegt. Eine Entscheidung erfolgt also stets unter dem Vorbehalt des Eigentümers.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Wann wird meine Betriebskostenabrechnung erstellt?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Nach den gesetzlichen Regelungen für die Nebenkostenabrechnung muss diese innerhalb eines Jahres nach Ende des Abrechnungszeitraums erstellt werden. Es gilt also zu berücksichtigen, dass der Vermieter gemäß § 556 BGB bis zum 31.12. des Folgejahres Zeit hat, Ihnen die Abrechnung zu übermitteln.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Natürlich bemühen wir uns, Ihnen die Abrechnung schnellstmöglich zukommen zu lassen. Allerdings sind wir hierbei auch abhängig vom Zugang zu sämtlichen Rechnungsbelegen der beauftragten Versorger und Dienstleister.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Wie gehe ich bei Lärmbelästigungen vor?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Wenn Sie der Meinung sind, dass Ihr Nachbar regelmäßig zu laut ist, dann bitten wir Sie, zunächst das Gespräch zu suchen. Einige laute Tätigkeiten sind gesetzlich gestattet, sodass wir hier nicht behilflich sein können. Versuchen Sie am Besten, das Problem sachlich und ruhig anzusprechen und eine gemeinsame Lösung zu finden.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Sind die Störungen weiterhin massiv für Sie, dann können Sie sich selbstverständlich an uns wenden. Wir bitten hier um eine schriftliche Benachrichtigung mit genauen Angaben zu den Vorfällen.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Wie kündige ich meine Wohnung?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Der Vermieter muss die Kündigung schriftlich erhalten. Die einzuhaltenden Fristen finden Sie in Ihrem Mietvertrag. Diese Fristen beziehen sich grundsätzlich auf den Eingang der Kündigung beim Vermieter, nicht auf das Datum des Schreibens oder des Poststempels.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Im Zweifelsfall bitte die Kündigung immer per Einschreiben versenden.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Im Zweifelsfall bitte die Kündigung immer per Einschreiben versenden.</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Gerne können Sie uns einen Nachmieter für Ihre Wohnung vorstellen.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Die Entscheidung erfolgt jedoch unter Vorbehalt der Interessenteneigenschaften und der Entscheidungsgewalt des Eigentümers.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Muss ich bei Auszug die Wohnung renovieren?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Hierbei ist entscheidend, welche Vereinbarungen im Mietvertrag getroffen wurden und wie der Zustand der Wohnung bei der Übergabe war.
+                            </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Wenn Sie beim Einzug eine renovierte Wohnung übernommen haben, so ist diese auch wieder renoviert zu übergeben.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <section>
+        <div class="container mx-auto px-10">
+            <div class="flex items-center p-5 bg-darkBeige space-x-10">
+                <div class="w-[760px] h-[502px] bg-[url('../assets/kontakt-4-1.png')] bg-cover bg-no-repeat bg-center"></div>
+                <div class="w-1/2" >
+                    <h2 class="text-5xl font-semibold ">Ihr Weg zur individuellem Immobilienverwaltung</h2>
+                    <p class="mt-7 mb-3">Wenn sie die Verwaltung Ihrer Immobilie(n) in professionelle Hände geben möchten, dann stellen Sie gerne eine unverbindliche Anfrage. Durch die Erfassung erster Daten, können wir uns einen ersten Überblick über Ihre Immobilie(n) verschaffen, um dann im ersten Kennenlerngespräch individuell auf Ihre Anforderungen eingehen zu können. </p>
+                    <p class="mb-[60px]">Wir freuen uns auf eine Zusammenarbeit mit Ihnen!</p>
+                    <a href="#" class="group bg-white font-semibold py-4 px-5 flex items-center max-w-fit rounded-md hover:bg-opacity-90 shadow-md hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <section id="verwaltung">
+        <div class="container mx-auto px-10">
+            <div class="grid grid-cols-2">
+                <div class="px-[100px] py-24 min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
+                    <h2 class="text-darkYellow text-5xl font-semibold">Besonderheiten unserer WEG- und Mietverwaltung</h2>
+                    <h3 class="text-3xl mt-4 mb-7">WEG-Verwaltung</h3>
+                    <ul class="flex flex-col space-y-5 list-disc list-inside">
+                        <li>Einsicht von Eigentümerdokumenten jederzeit Online möglich über Casavi</li>
+                        <li>In jedem Geschäftsjahr werden Reformen und aktuelle Rechtsprechungen umgesetzt (auch MietVW)</li>
+                        <li>Eine Cloudbasierte Belegprüfung ist online und jederzeit möglich für den Beirat</li>
+                        <li>Durch ein Dokumentenmanagementsystem werden alle Schreiben und Vorgänge digitalisiert abgelegt und sind jederzeit abrufbar (auch MietVW)</li>
+                        <li>Die Digitalisierung erfolgt nach strengen Vorgaben der GOBD (auch MietVW)</li>
+                        <li>Es liegt eine lange telefonisch Erreichbarkeit vor. Außerhalb der Sprechzeiten haben wir durchgehend einen Anrufbeantworter geschaltet (auch MietVW)</li>
+                        <li>Kostensparende Rahmenverträge für laufende Kosten durch einen größeren Verwaltungsbestand möglich (Energie/ Versicherungen etc.) (auch MietVW)</li>
+                        <li>Generelles Benchmarking der Betriebskosten und Hausgelder (auch MietVW)</li>
+                    </ul>
+                </div>
+                <div class="bg-[url('../assets/red-building.png')] bg-cover bg-no-repeat bg-center"></div>
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <section>
+        <div class="container mx-auto pl-36 pr-40">
+            <h2 class="text-darkYellow text-5xl font-semibold">FAQ</h2>
+            <h3 class="text-3xl mt-4">Häufig gestellte Fragen zum Thema WEG-Verwaltung</h3>
+            <hr class="max-w-[1632px] my-10 mx-auto">
+            <div class="flex flex-col space-y-20">
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist Hausgeld?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Das Hausgeld muss von jedem Wohnungseigentümer gezahlt werden und sollte bereits vor einem Kauf mit eingeplant werden. Die Höhe des Hausgeldes wird von der Hausverwaltung in einem Wirtschaftsplan festgelegt, welcher durch die Eigentümergemeinschaft genehmigt/beschlossen wird. Hierbei handelt es sich um eine Nebenkostenabschlagszahlung für den Eigentümer, welche neben den umlagefähigen Betriebskosten wie z.B. Heizung, Versicherungen, Hausmeister, etc. auch nicht umlagefähige Nebenkosten wie Rücklagenzufuhr, Hausverwaltung und Kontoführungsgebühren beinhaltet.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Nach Abschluss des Wirtschaftsjahres erfolgt eine Abrechnung durch den zuständigen Verwalter. Überschüsse werden natürlich zurückerstattet, fehlende Beträge müssen entsprechend nachgezahlt werden.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist eine Eigentümerversammlung?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Normalerweise findet einmal im Jahr eine ordentliche Eigentümerversammlung statt. Hier treffen sich die einzelnen Eigentümer der unterschiedlichen Einheiten (Wohnungen, Gewerbe, Stellplätze), um die Wünsche und Willen der Eigentümergemeinschaft festzulegen. Hierbei werden u.a. die Betriebskostenabrechnung und der Wirtschaftsplan beschlossen, der Verwalter entlastet und evtl. anfallende Instandhaltung-, Instandsetzungs- oder Modernisierungsmaßnahmen besprochen und beschlossen. Gibt es Neuigkeiten rund um die Anlage oder spezifische Gesetzesänderungen, werden die Eigentümer entsprechend informiert.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            In dringenden Angelegenheiten kann auch eine außerordentliche Eigentümerversammlung einberufen werden, um schnellstmöglich handeln zu können. Dies macht vor allem bei akuten Instandsetzungs- oder Instandhaltungsmaßnahmen Sinn. Alle besprochenen und beschlossenen Punkte werden protokolliert und eine Niederschrift an alle, auch nicht anwesende Eigentümer versandt.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist, wenn man nicht an der Eigentümerversammlung teilnehmen kann?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Sollten Sie einmal verhindert sein und nicht an der Eigentümerversammlung teilnehmen können, regelt die Teilungserklärung der Eigentümergemeinschaft eine Bevollmächtigung Dritter.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Der Einladung zur Versammlung liegt bereits ein Vordruck bei, welcher im Original unterzeichnet vor der Versammlung an die Hausverwaltung übersendet werden muss.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Wie und wo kann ich einen Tagesordnungspunkt vortragen?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Um ein Thema auf der Tagesordnung der Eigentümerversammlung zu ergänzen ist ein schriftlicher Antrag mit Begründung zur Bestellung eines Tagesordnungspunktes notwendig.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Gerne können Sie Ihr Anliegen vorab mit uns besprechen. Hierfür ist Ihr zuständiger WEG-Verwalter Ihr Ansprechpartner.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was sind Rücklagen und wofür sind sie da?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Jedes Haus benötigt nach einiger Zeit beispielsweise einen frischen Anstrich. Um Reparaturen bezahlen zu können, muss eine sogenannte Instandhaltungsrücklage gebildet werden. Hiervon werden Instandhaltungs- und Instandsetzungsarbeiten im gemeinschaftlichen Eigentum beglichen. Hierzu zählen z.B. die Heizungsanlage, die Fassade oder das Treppenhaus. Je nach beschlossenem Verteilerschlüssel (in der Regel nach Miteigentumsanteilen) zahlt jeder Eigentümer regelmäßig seinen Anteil in das „große Sparschwein“ der Gemeinschaft.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Bei einem Wohnungsverkauf / Eigentumsübertragung geht die Einzelrücklage (Anteil der Wohnung) auf den neuen Eigentümer über. Diese kann nicht ausbezahlt werden.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was leistet eine WEG-Verwaltung?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Die Aufgaben eines Wohnungseigentumsverwalters sind gesetzlich in den §§ 27 und 28 Wohnungseigentumsgesetz geregelt. Zu den Hauptaufgaben zählen das Erstellen einer Jahresabrechnung, das Abhalten der Versammlung sowie die Umsetzung der dort gefassten Beschlüsse, die weiteren vielfältigen Aufgaben, die ein Verwalter zu leisten hat, werden allerdings nicht spezifisch bzw. detailliert aufgeführt.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Weitere Aufgaben und Befugnisse können sich darüber hinaus aus der Teilungserklärung ergeben. Alle Verwalter sind verpflichtet, das Mindestmaß an Aufgaben und Leistungen zu erbringen, die der Gesetzgeber vorsieht. Hier kommt es also ganz klar auf die Qualität an, mit der Ihr Verwalter diese Leistung erbringt.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist eine Sondereigentumsverwaltung?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Ein Wohnungseigentumsverwalter ist, anders als vielfach angenommen, lediglich für die Verwaltung des Gemeinschaftseigentums und der Gemeinschaft zuständig. Befugnisse hinsichtlich des Sondereigentums, d.h. Ihrer Wohnung, hat der Verwalter hingegen nicht.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Viele Verwalter bieten jedoch gegen zusätzliche Vergütung eine Sondereigentumsverwaltung für vermietete Wohnungen an. Hier kümmert sich dann der Verwalter auch um den Mieter der Wohnung und übernimmt die typischerweise vom Wohnungseigentümer zu leistenden Aufgaben.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was muss bei Arbeiten am Gemeinschaftseigentum beachtet werden und wer gibt diese in Auftrag?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        Grundsätzlich gilt bei Handwerkerrechnungen „Auftraggeber zahlt“. Bei Maßnahmen am Gemeinschaftseigentum ist eine Rücksprache sowie Beauftragung durch die Verwaltung aufgrund der Gewährleistung, Rabatte und Kostentransparenz unumgänglich.
+                    </p>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist der Unterscheid zwischen einer ordentlichen und außerordentlichen Eigentümerversammlung?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Die ordentliche Eigentümerversammlung, abgekürzt ETV, wird mindestens einmal im Jahr durch den Verwalter einberufen, eine außerordentliche Versammlunge allerdings nur nach Bedarf. Es ist in beiden Fällen zu beachten, dass die Einladung schriftlich erfolgen muss und eine Tagesordnung beinhaltet.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Der Ort der Versammlung muss für alle Teilnehmer erreichbar sein und auf einen Termin gelegt werden, der für alle günstig ist, also beispielsweise nicht am Vormittag oder während der Schulferien.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist eine Teilungserklärung?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Im deutschen Wohnungseigentumsrecht wird die Teilungserklärung definiert als eine Erklärung des Grundstückseigentümers gegenüber dem Grundbuchamt. Es wird festgelegt, wie das Eigentum an dem Grundstück in Miteigentumsanteile aufgeteilt wird.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Dabei unterscheidet man das Gemeinschaftseigentum vom Sondereigentum. Wichtig ist, dass die Teilungserklärung immer notariell beglaubigt ist.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist der Unterscheid zwischen Gemeinschafts- und Sondereigentum?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            In der Teilungserklärung wird festgehalten, was zum Gemeinschaftseigentums und was zum Sondereigentum zählt. Das Gemeinschaftseigentum bezieht sich auf alle Installationen und Objekte eines Gebäudes, welche von allen Eigentümern genutzt werden.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Dazu gehören beispielsweise Geländer, das Hausdach, Treppenhäuser und deren Beleuchtung. Die einzelnen Wohneinheiten gehören allerdings zum Sondereigentum jedes einzelnen Eigentümers.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist die Aufgabe eines Verwaltungsbeirats?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Der Verwaltungsbeirat einer WEG unterstützt den Verwalter bei seiner Tätigkeit. Oft kommt es vor, dass der Beirat die Entscheidungen trifft und die Ausführung an den Verwalter übergibt.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            So werden zum Beispiel Wirtschaftspläne, Abrechnungen und Kostenvoranschläge erst durch den Beirat geprüft, bevor diese der Gemeinschaft vorgelegt werden.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist ein Wirtschaftsplan?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <div class="flex space-x-10">
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Ein Wirtschaftsplan ist eine Prognose der anstehenden Betriebskosten des nächsten Wirtschaftsjahres der WEG. Umlagefähige und nicht umlagefähige Kosten werden dabei für das kommende Jahr kalkuliert, sodass alle Eigentümer bereits eine Vorstellung von den auf sie zukommenden Kosten haben.
+                        </p>
+                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                            Voraussichtliche Kostenerhöhungen können im Wirtschaftsplan ebenfalls berücksichtigt werden. Ein wichtiger Bestandteil des Wirtschaftsplans ist außerdem die Darstellung der Entwicklung der Instandhaltungsrücklage.
+                        </p>
+                    </div>
+                </div>
+                <div class="question-dropdown">
+                    <div class="flex items-center justify-between text-brown text-3xl">
+                        <h3>Was ist ein Sondernutzungsrecht?</h3>
+                        <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                    </div>
+                    <hr class="bg-darkBeige h-[3px] my-5">
+                    <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        Ein Sondernutzungsrecht ist das Recht, ein Teil des Gemeinschaftseigentums unter dem Ausschluss der übrigen Wohnungseigentümer nutzen zu dürfen, z.B. Terrassen- und Gartenflächen, Außenstellplätze oder Stellplätze in Garagen.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <section>
+        <div class="container mx-auto grid grid-cols-2 px-10">
+            <div>
+                <div class="p-[100px] pr-28 h-2/4 flex flex-col justify-center bg-lightBeige">
+                    <h2 class="text-5xl font-semibold text-darkYellow mb-4">Meine.lireal</h2>
+                    <h3 class="text-3xl">Vorteile</h3>
+                    <p class="my-7 mb-16">Bleiben Sie immer auf dem Laufenden durch unser digitales Serviceportal. Durch unsere Serviceportallösung meine.lireal bieten wir unseren Kunden ab sofort einen eigenen digitalen Informations- und Servicebereich für PC, Smartphone und Tablet an. Dadurch stehen Ihnen unsere Informationen und Services rund um die Uhr zur Verfügung.</p>
+                    <a href="#" class="group bg-white font-semibold text-black py-4 px-5 flex items-center rounded-md shadow-md w-fit bg-opacity-80 hover:bg-opacity-90 hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                </div>
+                <div class="pl-[100px] py-14 pr-16 h-2/4 flex flex-col justify-center bg-darkGrey text-white">
+                    <h3 class="text-3xl mb-7">So funktioniert es</h3>
+                    <ul class="flex flex-col space-y-5 list-decimal list-inside">
+                        <li>Sie erhalten von lireal einen individuellen 8-stelligen Einladungscode per E-Mail zugeschickt, sobald das Serviceportal für Ihr Haus frei geschaltet wurde.</li>
+                        <li>Für die Registrierung verwenden wir Ihre angegebene E-Mail-Adresse. Mit dieser E-Mail-Adresse und Ihrem persönlichen Einladungscode können Sie sich kostenlos registrieren. Anschließend können Sie Ihr persönliches Passwort vergeben und sich zukünftig mit Ihrer E-Mail-Adresse und Ihrem Passwort unter meine.lireal einloggen.</li>
+                        <li>Nach Ihrer Registrierung können Sie ganz bequem im Browser oder per App für iOS und Android auf alle Funktionen und Inhalte zugreifen. Ändern Sie Ihre Benachrichtigungseinstellungen nach Ihren Präferenzen und verpassen Sie so keine für Sie relevanten Informationen mehr.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-[url('../assets/red-building.png')] bg-no-repeat bg-cover bg-center">
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <section>
+        <div class="container mx-auto px-10">
+            <div class="flex flex-col space-y-5">
+                <div class="grid grid-cols-2">
+                    <div class="bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center"></div>
+                    <div class="p-[100px] min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
+                        <h2 class="text-darkYellow text-5xl font-semibold">Referenzen</h2>
+                        <h3 class="text-3xl mt-4 mb-7">Referenzprojekte zu Vermietung, Verkauf oder Verwaltung</h3>
+                        <p class="mb-[60px]">Gerne stellen wir Ihnen einige unserer erfolgreich verkauften, vermieteten oder verwalteten Immobilien vor.</p>
+                        <a href="#" class="group bg-white font-semibold bg-opacity-80 py-4 px-5 flex items-center rounded-md shadow-md w-fit hover:bg-opacity-90 hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2">
+                    <div class="p-[100px] min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
+                        <h2 class="text-darkYellow text-5xl font-semibold">Immobilienangebote</h2>
+                        <h3 class="text-3xl mt-4 mb-7">Verkauf und Vermietung</h3>
+                        <p class="mb-[60px]">Sie möchten ein Haus oder eine Wohnung kaufen oder mieten? Verschaffen Sie sich gerne einen Überblick über unsere aktuellen Angebote.</p>
+                        <a href="#" class="group bg-white font-semibold bg-opacity-80 py-4 px-5 flex items-center rounded-md shadow-md w-fit hover:bg-opacity-90 hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    </div>
+                    <div class="bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center"></div>
+                </div>
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <footer>
+        <div class="container mx-auto">
+            <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.3643590477486!2d7.509864715769309!3d51.48818087963198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b91766416cb8cf%3A0xd92367b6a1151019!2sLIREAL%20GmbH%20-%20Immobilienverwaltung%20und%20-vermittlung!5e0!3m2!1ska!2sge!4v1657214693152!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="flex">
+                <div class="w-[350px] aspect-square flex justify-center items-center bg-darkGrey">
+                    <img src="../assets/logo.png" alt="logo">
+                </div>
+                <div class="w-full h-[350px] bg-lightBeige flex space-x-10 items-center justify-center">
+                    <div>
+                        <h3 class="text-3xl text-darkYellow font-semibold mb-3">Kontakt</h3>
+                        <div class="flex space-x-20 text-sm">
+                            <div class="flex flex-col space-y-2">
+                                <span class="font-semibold">Lireal GmbH</span>
+                                <span>Phoenixseestr.17</span>
+                                <span>44263 Dortmund</span>
+                            </div>
+                            <div class="flex flex-col space-y-2">
+                                <a href="tel:+49(0)231700600-0"><span class="font-semibold">Tel.:</span>+49(0) 231 700600-0</a>
+                                <a href="tel:+49(0)231700600-44"><span class="font-semibold">Tel.:</span>+49(0) 231 700600-44</a>
+                                <a href="mailto:mail@li-real.de">mail@li-real.de</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-2/4">
+                        <h3 class="text-3xl text-darkYellow font-semibold mb-3">Mitgliedschaften</h3>
+                        <div class="flex justify-between items-center">
+                            <a class="block w-32 h-auto" href="#"><img class="w-full h-full" src="../assets/vdiv-logo.png" alt="vdiv logo"></a>
+                            <a class="block w-[120px] h-auto" href="#"><img class="w-full h-full" src="../assets/rics-logo.png" alt="RICS logo"></a>
+                            <a class="block w-12 h-auto" href="#"><img class="w-full h-full" src="../assets/partner-2021.png" alt="partner-2021"></a>
+                            <div>
+                                <a class="block w-[100px] h-auto" href="#"><img class="w-full h-full" src="../assets/google-logo.png" alt="google logo"></a>
+                                <div class="flex-items-center space-x-2 my-2 text-xl text-darkYellow">
+                                    <span class="text-black font-semibold">4.5</span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <span class="block text-[13px]">97 Rezensionen</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[100px] flex items-center justify-between bg-darkBeige text-sm font-semibold pl-20 pr-10">
+                <a class="uppercase" href="#">impressum</a>
+                <a class="uppercase" href="#">datenshutz</a>
+                <a class="uppercase text-darkGrey opacity-40" href="#">cookies</a>
+                <span class="font-normal">Copyright © 2017 by LIREAL GmbH</span>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/kontakt-4.js"></script>
+</body>
+</html>

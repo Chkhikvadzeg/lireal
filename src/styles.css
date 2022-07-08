@@ -8,6 +8,10 @@
     }
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
 .hamburger {
     width: 40px;
     position: relative;
@@ -143,7 +147,7 @@
     transition: all .3s ease-in-out;
 }
 
-.question-dropdown.active p {
+.question-dropdown.active .dropdown-answer {
     position: static;
     display: block;
     transform: scaleY(1) translateY(0);
