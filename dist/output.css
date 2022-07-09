@@ -628,6 +628,14 @@ html {
   margin: 0px !important;
 }
 
+.m-\[60px\] {
+  margin: 60px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -656,6 +664,11 @@ html {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-\[60px\] {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .mb-10 {
@@ -750,6 +763,50 @@ html {
   margin-top: 10px;
 }
 
+.mt-\[60px\] {
+  margin-top: 60px;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mb-\[60x\] {
+  margin-bottom: 60x;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-\[10px\] {
+  margin-bottom: 10px;
+}
+
+.mb-\[0px\] {
+  margin-bottom: 0px;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[60\] {
+  margin-top: 60;
+}
+
+.mt-\[60p\] {
+  margin-top: 60p;
+}
+
 .block {
   display: block;
 }
@@ -824,6 +881,30 @@ html {
   height: 150px;
 }
 
+.h-44 {
+  height: 11rem;
+}
+
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.h-\[00px\] {
+  height: 00px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[2100px\] {
+  height: 2100px;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -894,12 +975,28 @@ html {
   width: 70px;
 }
 
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
 .w-1 {
   width: 0.25rem;
 }
 
-.w-1\/3 {
-  width: 33.333333%;
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .max-w-fit {
@@ -969,6 +1066,10 @@ html {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -983,6 +1084,10 @@ html {
 
 .items-center {
   align-items: center;
+}
+
+.items-stretch {
+  align-items: stretch;
 }
 
 .justify-end {
@@ -1005,6 +1110,30 @@ html {
   gap: 1.25rem;
 }
 
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[1\] {
+  gap: 1;
+}
+
+.gap-\[10\] {
+  gap: 10;
+}
+
+.gap-\[100\] {
+  gap: 100;
+}
+
+.gap-\[100p\] {
+  gap: 100p;
+}
+
+.gap-\[100px\] {
+  gap: 100px;
+}
+
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -1013,6 +1142,21 @@ html {
 .gap-x-\[100px\] {
   -moz-column-gap: 100px;
        column-gap: 100px;
+}
+
+.gap-x-1 {
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
+}
+
+.gap-x-16 {
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
+.gap-x-12 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
 }
 
 .space-x-24 > :not([hidden]) ~ :not([hidden]) {
@@ -1111,6 +1255,12 @@ html {
   margin-bottom: calc(100px * var(--tw-space-y-reverse));
 }
 
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1145,6 +1295,14 @@ html {
   border-width: 0px;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
 .border-r {
   border-right-width: 1px;
 }
@@ -1157,6 +1315,10 @@ html {
   border-bottom-width: 5px;
 }
 
+.border-r-0 {
+  border-right-width: 0px;
+}
+
 .border-dashed {
   border-style: dashed;
 }
@@ -1166,9 +1328,29 @@ html {
   border-color: rgb(159 112 66 / var(--tw-border-opacity));
 }
 
+.border-darkGrey {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 100 100 / var(--tw-border-opacity));
+}
+
+.border-darkBeige {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 204 197 / var(--tw-border-opacity));
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .border-r-gray-200 {
   --tw-border-opacity: 1;
   border-right-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.border-r-black {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -1209,6 +1391,10 @@ html {
 .bg-darkGrey {
   --tw-bg-opacity: 1;
   background-color: rgb(100 100 100 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-opacity-80 {
@@ -1287,6 +1473,78 @@ html {
   background-image: url('../assets/kontakt-6-1.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/kontakt-4-\.png\'\)\] {
+  background-image: url('../assets/kontakt-4-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-4\.png\'\)\] {
+  background-image: url('../assets/kontakt-4.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-\.png\'\)\] {
+  background-image: url('../assets/kontakt-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-6\.png\'\)\] {
+  background-image: url('../assets/kontakt-6.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-6-\.png\'\)\] {
+  background-image: url('../assets/kontakt-6-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/house-\.jpg\'\)\] {
+  background-image: url('../assets/house-.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt\.png\'\)\] {
+  background-image: url('../assets/kontakt.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontak\.png\'\)\] {
+  background-image: url('../assets/kontak.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/konta\.png\'\)\] {
+  background-image: url('../assets/konta.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kont\.png\'\)\] {
+  background-image: url('../assets/kont.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kon\.png\'\)\] {
+  background-image: url('../assets/kon.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/ko\.png\'\)\] {
+  background-image: url('../assets/ko.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/k\.png\'\)\] {
+  background-image: url('../assets/k.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\.png\'\)\] {
+  background-image: url('../assets/.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\.pn\'\)\] {
+  background-image: url('../assets/.pn');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\.p\'\)\] {
+  background-image: url('../assets/.p');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\.\'\)\] {
+  background-image: url('../assets/.');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\'\)\] {
+  background-image: url('../assets/');
+}
+
 .bg-\[url\(\'\.\.\/assets\/h\'\)\] {
   background-image: url('../assets/h');
 }
@@ -1307,20 +1565,68 @@ html {
   background-image: url('../assets/house');
 }
 
-.bg-\[url\(\'\.\.\/assets\/house-1\'\)\] {
-  background-image: url('../assets/house-1');
+.bg-\[url\(\'\.\.\/assets\/house-\'\)\] {
+  background-image: url('../assets/house-');
 }
 
-.bg-\[url\(\'\.\.\/assets\/house-1\.\'\)\] {
-  background-image: url('../assets/house-1.');
+.bg-\[url\(\'\.\.\/assets\/house-3\'\)\] {
+  background-image: url('../assets/house-3');
 }
 
-.bg-\[url\(\'\.\.\/assets\/house-1\.j\'\)\] {
-  background-image: url('../assets/house-1.j');
+.bg-\[url\(\'\.\.\/assets\/house-3\.\'\)\] {
+  background-image: url('../assets/house-3.');
 }
 
-.bg-\[url\(\'\.\.\/assets\/house-1\.jp\'\)\] {
-  background-image: url('../assets/house-1.jp');
+.bg-\[url\(\'\.\.\/assets\/house-3\.j\'\)\] {
+  background-image: url('../assets/house-3.j');
+}
+
+.bg-\[url\(\'\.\.\/assets\/house-3\.jp\'\)\] {
+  background-image: url('../assets/house-3.jp');
+}
+
+.bg-\[url\(\'\.\.\/assets\/house-3\.jpe\'\)\] {
+  background-image: url('../assets/house-3.jpe');
+}
+
+.bg-\[url\(\'\.\.\/assets\/house-\.jpeg\'\)\] {
+  background-image: url('../assets/house-.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-8-2\.png\'\)\] {
+  background-image: url('../assets/kontakt-8-2.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-8-\.png\'\)\] {
+  background-image: url('../assets/kontakt-8-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-8-1\.png\'\)\] {
+  background-image: url('../assets/kontakt-8-1.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-8-3\.png\'\)\] {
+  background-image: url('../assets/kontakt-8-3.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-8-4\.png\'\)\] {
+  background-image: url('../assets/kontakt-8-4.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-8-5\.png\'\)\] {
+  background-image: url('../assets/kontakt-8-5.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-8-6\.png\'\)\] {
+  background-image: url('../assets/kontakt-8-6.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-8-7\.png\'\)\] {
+  background-image: url('../assets/kontakt-8-7.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-8-8\.png\'\)\] {
+  background-image: url('../assets/kontakt-8-8.png');
 }
 
 .from-lightYellow {
@@ -1459,6 +1765,16 @@ html {
   padding-bottom: 2.25rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -1550,6 +1866,10 @@ html {
 
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-\[80px\] {
+  font-size: 80px;
 }
 
 .font-semibold {
@@ -1891,6 +2211,36 @@ html {
           clip-path: polygon(100% 0%, 100% 100%, 50% 75%, 0 100%, 0 0);
 }
 
+.placeholder\:text-base::-moz-placeholder {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.placeholder\:text-base:-ms-input-placeholder {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.placeholder\:text-base::placeholder {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.placeholder\:text-black::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-black:-ms-input-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-black::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
@@ -1921,6 +2271,10 @@ html {
   outline-offset: 2px;
 }
 
+.focus-within\:outline-0:focus-within {
+  outline-width: 0px;
+}
+
 .hover\:bg-brown:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(159 112 66 / var(--tw-bg-opacity));
@@ -1928,106 +2282,6 @@ html {
 
 .hover\:bg-opacity-90:hover {
   --tw-bg-opacity: 0.9;
-}
-
-.hover\:bg-\[url\(\)\]:hover {
-  background-image: url();
-}
-
-.hover\:bg-\[url\(\.\)\]:hover {
-  background-image: url(.);
-}
-
-.hover\:bg-\[url\(\.\.\/\)\]:hover {
-  background-image: url(../);
-}
-
-.hover\:bg-\[url\(\.\.\/a\)\]:hover {
-  background-image: url(../a);
-}
-
-.hover\:bg-\[url\(\.\.\/as\)\]:hover {
-  background-image: url(../as);
-}
-
-.hover\:bg-\[url\(\.\.\/ass\)\]:hover {
-  background-image: url(../ass);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\)\]:hover {
-  background-image: url(../assets);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/\)\]:hover {
-  background-image: url(../assets/);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/h\)\]:hover {
-  background-image: url(../assets/h);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/ho\)\]:hover {
-  background-image: url(../assets/ho);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/hou\)\]:hover {
-  background-image: url(../assets/hou);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/hous\)\]:hover {
-  background-image: url(../assets/hous);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house\)\]:hover {
-  background-image: url(../assets/house);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-\)\]:hover {
-  background-image: url(../assets/house-);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-i\)\]:hover {
-  background-image: url(../assets/house-i);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-in\)\]:hover {
-  background-image: url(../assets/house-in);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-int\)\]:hover {
-  background-image: url(../assets/house-int);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-inte\)\]:hover {
-  background-image: url(../assets/house-inte);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-inter\)\]:hover {
-  background-image: url(../assets/house-inter);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-interi\)\]:hover {
-  background-image: url(../assets/house-interi);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-interio\)\]:hover {
-  background-image: url(../assets/house-interio);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-interior\)\]:hover {
-  background-image: url(../assets/house-interior);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-interior\.\)\]:hover {
-  background-image: url(../assets/house-interior.);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-interior\.j\)\]:hover {
-  background-image: url(../assets/house-interior.j);
-}
-
-.hover\:bg-\[url\(\.\.\/assets\/house-interior\.jp\)\]:hover {
-  background-image: url(../assets/house-interior.jp);
 }
 
 .hover\:bg-\[url\(\.\.\/assets\/house-interior\.jpg\)\]:hover {
@@ -2053,6 +2307,15 @@ html {
 .hover\:after\:bg-opacity-40:hover::after {
   content: var(--tw-content);
   --tw-bg-opacity: 0.4;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:outline-0:focus {
+  outline-width: 0px;
 }
 
 .group:hover .group-hover\:block {
