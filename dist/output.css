@@ -780,10 +780,6 @@ html {
   margin-left: 2rem;
 }
 
-.-ml-\[100px\] {
-  margin-left: -100px;
-}
-
 .ml-\[100px\] {
   margin-left: 100px;
 }
@@ -796,20 +792,48 @@ html {
   margin-top: 100px;
 }
 
-.mt-\[\] {
-  margin-top: ;
+.ml-auto {
+  margin-left: auto;
 }
 
-.mt-\[6\] {
-  margin-top: 6;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
-.mt-\[60\] {
-  margin-top: 60;
+.mt-8 {
+  margin-top: 2rem;
 }
 
-.mt-\[60p\] {
-  margin-top: 60p;
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[6\] {
+  margin-bottom: 6;
+}
+
+.mb-\[60p\] {
+  margin-bottom: 60p;
+}
+
+.mb-\[70px\] {
+  margin-bottom: 70px;
+}
+
+.mb-\[60\] {
+  margin-bottom: 60;
 }
 
 .block {
@@ -904,10 +928,6 @@ html {
 
 .h-\[900px\] {
   height: 900px;
-}
-
-.h-3 {
-  height: 0.75rem;
 }
 
 .min-h-full {
@@ -1103,24 +1123,12 @@ html {
   gap: 100px;
 }
 
-.gap-\[\] {
-  gap: ;
-}
-
-.gap-\[6\] {
-  gap: 6;
-}
-
-.gap-\[60\] {
-  gap: 60;
-}
-
-.gap-\[60p\] {
-  gap: 60p;
-}
-
 .gap-\[60px\] {
   gap: 60px;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-x-10 {
@@ -1232,6 +1240,18 @@ html {
   --tw-space-y-reverse: 0;
   margin-top: calc(100px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(100px * var(--tw-space-y-reverse));
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -1356,6 +1376,11 @@ html {
   background-color: transparent;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
 }
@@ -1412,6 +1437,10 @@ html {
   background-image: url('../assets/kontakt-3-1.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/kontakt-5-1\.png\'\)\] {
+  background-image: url('../assets/kontakt-5-1.png');
+}
+
 .bg-\[url\(\'\.\.\/assets\/house-1\.jpg\'\)\] {
   background-image: url('../assets/house-1.jpg');
 }
@@ -1456,116 +1485,12 @@ html {
   background-image: url('../assets/kontakt-8-6.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/kontakt-4-\.png\'\)\] {
-  background-image: url('../assets/kontakt-4-.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/kontakt-4\.png\'\)\] {
-  background-image: url('../assets/kontakt-4.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/kontakt\.png\'\)\] {
-  background-image: url('../assets/kontakt.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/konta\.png\'\)\] {
-  background-image: url('../assets/konta.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/kont\.png\'\)\] {
-  background-image: url('../assets/kont.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/kon\.png\'\)\] {
-  background-image: url('../assets/kon.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/ko\.png\'\)\] {
-  background-image: url('../assets/ko.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/k\.png\'\)\] {
-  background-image: url('../assets/k.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/\.png\'\)\] {
-  background-image: url('../assets/.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/b\.png\'\)\] {
-  background-image: url('../assets/b.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/bi\.png\'\)\] {
-  background-image: url('../assets/bi.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big\.png\'\)\] {
-  background-image: url('../assets/big.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-\.png\'\)\] {
-  background-image: url('../assets/big-.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-r\.png\'\)\] {
-  background-image: url('../assets/big-r.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-re\.png\'\)\] {
-  background-image: url('../assets/big-re.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-red\.png\'\)\] {
-  background-image: url('../assets/big-red.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-red-\.png\'\)\] {
-  background-image: url('../assets/big-red-.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-red-b\.png\'\)\] {
-  background-image: url('../assets/big-red-b.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-red-bu\.png\'\)\] {
-  background-image: url('../assets/big-red-bu.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-red-bui\.png\'\)\] {
-  background-image: url('../assets/big-red-bui.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-red-buil\.png\'\)\] {
-  background-image: url('../assets/big-red-buil.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-red-build\.png\'\)\] {
-  background-image: url('../assets/big-red-build.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/big-red-buildi\.png\'\)\] {
-  background-image: url('../assets/big-red-buildi.png');
-}
-
 .bg-\[url\(\'\.\.\/assets\/big-red-building\.png\'\)\] {
   background-image: url('../assets/big-red-building.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/kontakt-3-\\1\.png\'\)\] {
-  background-image: url('../assets/kontakt-3-\1.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/kontakt-31\.png\'\)\] {
-  background-image: url('../assets/kontakt-31.png');
-}
-
 .bg-\[url\(\'\.\.\/assets\/kontakt-1\.png\'\)\] {
   background-image: url('../assets/kontakt-1.png');
-}
-
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .bg-gradient-to-bl {
@@ -1578,60 +1503,6 @@ html {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-\[\] {
-  --tw-gradient-from: ;
-  --tw-gradient-to: rgb(255 255 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#\] {
-  --tw-gradient-from: #;
-  --tw-gradient-to: rgb(255 255 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#F\] {
-  --tw-gradient-from: #F;
-  --tw-gradient-to: rgb(255 255 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#F7\] {
-  --tw-gradient-from: #F7;
-  --tw-gradient-to: rgb(255 255 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#F7F\] {
-  --tw-gradient-from: #F7F;
-  --tw-gradient-to: rgb(255 119 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#F7F7\] {
-  --tw-gradient-from: #F7F7;
-  --tw-gradient-to: rgb(255 119 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#F7F7f\] {
-  --tw-gradient-from: #F7F7f;
-  --tw-gradient-to: rgb(255 255 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#F7F7F\] {
-  --tw-gradient-from: #F7F7F;
-  --tw-gradient-to: rgb(255 255 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#F7F7F8\] {
-  --tw-gradient-from: #F7F7F8;
-  --tw-gradient-to: rgb(247 247 248 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .from-\[\#F7F7F7\] {
   --tw-gradient-from: #F7F7F7;
   --tw-gradient-to: rgb(247 247 247 / 0);
@@ -1640,30 +1511,6 @@ html {
 
 .to-darkYellow {
   --tw-gradient-to: #E0AA0B;
-}
-
-.to-\[\] {
-  --tw-gradient-to: ;
-}
-
-.to-\[\#\] {
-  --tw-gradient-to: #;
-}
-
-.to-\[\#E\] {
-  --tw-gradient-to: #E;
-}
-
-.to-\[\#E5\] {
-  --tw-gradient-to: #E5;
-}
-
-.to-\[\#E5E5\] {
-  --tw-gradient-to: #E5E5;
-}
-
-.to-\[\#E5E5E\] {
-  --tw-gradient-to: #E5E5E;
 }
 
 .to-\[\#E5E5E5\] {
@@ -1815,19 +1662,9 @@ html {
   padding-right: 2rem;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .pl-8 {
@@ -2316,6 +2153,11 @@ html {
   background-color: rgb(159 112 66 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-opacity-90:hover {
   --tw-bg-opacity: 0.9;
 }
@@ -2332,6 +2174,11 @@ html {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:after\:bg-darkYellow:hover::after {
