@@ -1254,6 +1254,12 @@ html {
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1497,6 +1503,94 @@ html {
   background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\.\.\/assets\/main-image-\.png\'\)\] {
+  background-image: url('../assets/main-image-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/main-image\.png\'\)\] {
+  background-image: url('../assets/main-image.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/main-imag\.png\'\)\] {
+  background-image: url('../assets/main-imag.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/main-ima\.png\'\)\] {
+  background-image: url('../assets/main-ima.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/main-im\.png\'\)\] {
+  background-image: url('../assets/main-im.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/main-i\.png\'\)\] {
+  background-image: url('../assets/main-i.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/main-\.png\'\)\] {
+  background-image: url('../assets/main-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/main\.png\'\)\] {
+  background-image: url('../assets/main.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/mai\.png\'\)\] {
+  background-image: url('../assets/mai.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/ma\.png\'\)\] {
+  background-image: url('../assets/ma.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/m\.png\'\)\] {
+  background-image: url('../assets/m.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\.png\'\)\] {
+  background-image: url('../assets/.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/k\.png\'\)\] {
+  background-image: url('../assets/k.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/ko\.png\'\)\] {
+  background-image: url('../assets/ko.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kon\.png\'\)\] {
+  background-image: url('../assets/kon.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kont\.png\'\)\] {
+  background-image: url('../assets/kont.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/konta\.png\'\)\] {
+  background-image: url('../assets/konta.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontak\.png\'\)\] {
+  background-image: url('../assets/kontak.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt\.png\'\)\] {
+  background-image: url('../assets/kontakt.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-\.png\'\)\] {
+  background-image: url('../assets/kontakt-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-1-\.png\'\)\] {
+  background-image: url('../assets/kontakt-1-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt-1-1\.png\'\)\] {
+  background-image: url('../assets/kontakt-1-1.png');
+}
+
 .from-lightYellow {
   --tw-gradient-from: #F5D166;
   --tw-gradient-to: rgb(245 209 102 / 0);
@@ -1665,6 +1759,11 @@ html {
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pl-8 {
