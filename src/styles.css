@@ -141,6 +141,13 @@
     height: calc(100vh - 150px);
 }
 
+.social-link {
+    transform: translateX(calc(100% - 50px));
+}
+
+.social-link:hover {
+    transform: translateX(0)
+}
 /* KONTAKT-4 */
 
 .dropdown-answer{
