@@ -2,7 +2,10 @@ module.exports = {
   content: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.css", "./**/*.html"],
   theme: {
     screens: {
-      '3xl': '1920px',
+      'sm': '768px',
+      'md': '1024px',
+      'lg': '1440px',
+      'xl': '1920px',
     },
     extend: {
       colors: {

@@ -15,6 +15,12 @@
     overflow-x: hidden;
   }
 
+  h1, 
+  h2,
+  h3 {
+    font-weight: 600;
+  }
+
 .hamburger {
     width: 40px;
     position: relative;
@@ -128,12 +134,9 @@
 
 .menu {
     transition: all 1s ease-in-out;
-    transform: scaleX(0);
 }
 
 .menu.active {
-    width: fit-content;
-    transform: scaleX(1);
     right: 0;
 }
 
