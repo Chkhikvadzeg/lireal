@@ -11,6 +11,9 @@
   html {
     scroll-behavior: smooth;
   }
+  body {
+    overflow-x: hidden;
+  }
 
 .hamburger {
     width: 40px;
