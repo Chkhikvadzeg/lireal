@@ -706,6 +706,16 @@ html {
   margin-right: 200px;
 }
 
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-14 {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -866,6 +876,30 @@ html {
   margin-top: 100px;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -884,6 +918,10 @@ html {
 
 .aspect-square {
   aspect-ratio: 1 / 1;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
 }
 
 .h-fit {
@@ -1002,6 +1040,18 @@ html {
 
 .h-\[1000p\] {
   height: 1000p;
+}
+
+.h-\[4\] {
+  height: 4;
+}
+
+.h-\[40\] {
+  height: 40;
+}
+
+.h-\[40v\] {
+  height: 40v;
 }
 
 .max-h-\[350px\] {
@@ -1236,6 +1286,23 @@ html {
 .gap-x-12 {
   -moz-column-gap: 3rem;
        column-gap: 3rem;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
+
+.gap-y-1 {
+  row-gap: 0.25rem;
+}
+
+.gap-y-5 {
+  row-gap: 1.25rem;
 }
 
 .space-x-24 > :not([hidden]) ~ :not([hidden]) {
@@ -1705,6 +1772,74 @@ html {
   background-image: url('../assets/kontakt--1.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/b\.png\'\)\] {
+  background-image: url('../assets/b.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/bi\.png\'\)\] {
+  background-image: url('../assets/bi.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big\.png\'\)\] {
+  background-image: url('../assets/big.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-\.png\'\)\] {
+  background-image: url('../assets/big-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-r\.png\'\)\] {
+  background-image: url('../assets/big-r.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-re\.png\'\)\] {
+  background-image: url('../assets/big-re.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red\.png\'\)\] {
+  background-image: url('../assets/big-red.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-\.png\'\)\] {
+  background-image: url('../assets/big-red-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-u\.png\'\)\] {
+  background-image: url('../assets/big-red-u.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-ub\.png\'\)\] {
+  background-image: url('../assets/big-red-ub.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-b\.png\'\)\] {
+  background-image: url('../assets/big-red-b.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-bu\.png\'\)\] {
+  background-image: url('../assets/big-red-bu.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-bui\.png\'\)\] {
+  background-image: url('../assets/big-red-bui.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-buil\.png\'\)\] {
+  background-image: url('../assets/big-red-buil.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-build\.png\'\)\] {
+  background-image: url('../assets/big-red-build.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-buildi\.png\'\)\] {
+  background-image: url('../assets/big-red-buildi.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/big-red-buildin\.png\'\)\] {
+  background-image: url('../assets/big-red-buildin.png');
+}
+
 .from-lightYellow {
   --tw-gradient-from: #F5D166;
   --tw-gradient-to: rgb(245 209 102 / 0);
@@ -1786,6 +1921,10 @@ html {
 
 .p-36 {
   padding: 9rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
 }
 
 .py-4 {
@@ -1891,6 +2030,16 @@ html {
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .pt-10 {
@@ -2527,8 +2676,16 @@ h3 {
 }
 
 @media (min-width: 769px) {
+  .sm\:grid {
+    display: grid;
+  }
+
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:flex-row {
@@ -2543,6 +2700,11 @@ h3 {
 
   .md\:order-1 {
     order: 1;
+  }
+
+  .md\:mx-\[200px\] {
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   .md\:mt-\[150px\] {
@@ -2577,8 +2739,32 @@ h3 {
     margin-bottom: 70px;
   }
 
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .md\:ml-\[100px\] {
+    margin-left: 100px;
+  }
+
+  .md\:mt-\[200px\] {
+    margin-top: 200px;
+  }
+
+  .md\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .md\:mt-\[60px\] {
+    margin-top: 60px;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:grid {
+    display: grid;
   }
 
   .md\:h-\[69px\] {
@@ -2609,6 +2795,10 @@ h3 {
 
   .md\:h-\[200px\] {
     height: 200px;
+  }
+
+  .md\:h-\[900px\] {
+    height: 900px;
   }
 
   .md\:min-h-\[660px\] {
@@ -2645,6 +2835,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -2659,6 +2853,15 @@ h3 {
 
   .md\:gap-\[100px\] {
     gap: 100px;
+  }
+
+  .md\:gap-\[60px\] {
+    gap: 60px;
+  }
+
+  .md\:gap-x-\[100px\] {
+    -moz-column-gap: 100px;
+         column-gap: 100px;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -2715,6 +2918,10 @@ h3 {
     padding: 1.25rem;
   }
 
+  .md\:p-36 {
+    padding: 9rem;
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -2743,6 +2950,11 @@ h3 {
   .md\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .md\:pl-8 {
@@ -2804,6 +3016,11 @@ h3 {
     font-size: 3rem;
     line-height: 1;
   }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 @media (min-width: 1441px) {
@@ -2815,12 +3032,21 @@ h3 {
     order: 2;
   }
 
+  .lg\:mx-\[200px\] {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
   }
 
   .lg\:mt-40 {
     margin-top: 10rem;
+  }
+
+  .lg\:mt-\[200px\] {
+    margin-top: 200px;
   }
 
   .lg\:flex {
@@ -2861,6 +3087,10 @@ h3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -2875,6 +3105,10 @@ h3 {
 
   .lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .lg\:gap-\[60px\] {
+    gap: 60px;
   }
 
   .lg\:space-y-5 > :not([hidden]) ~ :not([hidden]) {
@@ -3002,5 +3236,13 @@ h3 {
         max-width: 1920px;
       }
     }
+  }
+
+  .xl\:grid {
+    display: grid;
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
