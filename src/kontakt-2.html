@@ -9,16 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
 </head>
-<body>
+<body class="text-sm md:text-base">
     <header>
-        <div class="container mx-auto p-10 bg-white flex items-center  h-fit shadow-xl fixed left-0 right-0 top-0 z-10">
-            <a class="block h-[69px]" href="..//index.html"><img class="w-full h-full" src="../assets/logo.png" alt="logo"></a>
+        <div class="mx-auto fixed p-5 bg-white flex items-center bg-opacity-75 h-fit shadow-xl left-0 right-0 top-0 z-20 md:p-10 xl:container">
+            <a class="block h-10 md:h-[69px]" href="../index.html"><img class="w-full h-full" src="../assets/logo.png" alt="logo"></a>
             <nav class="mx-auto">
-                
-                <ul class="flex space-x-24">
-                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="./kontakt-4.html">Vermietung</a></li>
-                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verwaltung</a></li>
-                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verkauf</a></li>
+                <ul class="hidden space-x-24 lg:flex">
+                    <li><a class="font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-xl" href="#">Vermietung</a></li>
+                    <li><a class="font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-xl" href="#">Verwaltung</a></li>
+                    <li><a class="font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-xl" href="#">Verkauf</a></li>
                 </ul>
             </nav>
             <div class="aside-menu">
@@ -27,66 +26,68 @@
                     <div class="hamburger-line"></div>
                     <div class="hamburger-line"></div>
                 </button>
-                <nav class="menu absolute flex flex-col -right-full top-0 min-h-full px-20 py-10 space-y-5 bg-darkBeige bg-opacity-80">
-                    <div class="flex justify-between">
-                        <div class="flex w-[512px] rounded-md shadow-lg bg-white">
+                <nav class="menu absolute flex flex-col w-full p-5 -right-full top-0 bg-opacity-80 bg-darkBeige z-100 h-screen lg:px-20 lg:py-10 lg:space-y-5 md:w-fit md:h-fit">
+                    <div class="flex justify-between items-start">
+                        <div class="flex max-w-[512px] mb-2 rounded-md shadow-lg bg-white order-2 lg:order-1">
                             <input class="border-0 w-full h-full p-4 focus-within:outline-none " type="search" name="search" id="search" placeholder="Suche">
                             <button class="text-2xl rounded-r-md  p-3 bg-lightYellow "><i class="fa fa-search" aria-hidden="true"></i></button>
                         </div>
-                        <button class="aside-menu-hamburger active">
+                        <button class="aside-menu-hamburger active order-1 lg:order-2">
                             <div class="hamburger-line"></div>
                             <div class="hamburger-line"></div>
                             <div class="hamburger-line"></div>
                         </button>
                     </div>
-                    <ul class="flex flex-col space-y-6 mb-10">
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Home</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Vermieutung</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verwaltung</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verkauf</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Referenzen</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Immobilienangebote</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Unternehmen</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Karriere</a></li>
+                    <ul class="flex flex-col space-y-2 mb-4 lg:mb-10 lg:space-y-6">
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Home</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Vermieutung</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Verwaltung</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Verkauf</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Referenzen</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Immobilienangebote</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Unternehmen</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Karriere</a></li>
                     </ul>
-                    <div class="w-full p-10 bg-white bg-opacity-75 backdrop-blur-lg flex items-center space-x-10 shadow-lg rounded-lg">
-                        <div class="w-1/2 flex flex-col space-y-3">
-                            <span class="block">Jetzt ganz einfach personlich beraten lassen.</span>
-                            <a href="#" class="group duration-300 bg-white font-semibold py-4 px-5 flex items-center max-w-fit rounded-md hover:bg-opacity-90 shadow-md hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    <div class="flex items-center lg:flex-col lg:items-start">
+                        <div class="w-full p-3 bg-white bg-opacity-75 backdrop-blur-lg flex flex-col items-start space-y-10 shadow-lg rounded-lg sm:flex-row lg:p-10">
+                            <div class="flex flex-col space-y-3 lg:w-1/2">
+                                <span class="block">Jetzt ganz einfach personlich beraten lassen.</span>
+                                <a href="#" class="group  duration-300 bg-white font-semibold py-4 px-5 flex items-center max-w-fit rounded-md hover:bg-opacity-90 shadow-md hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                            </div>
+                            <div class="w-1/2 max-w-[250px]">
+                                <img class="object-contain" src="../assets/buildings.svg" alt="buildings">
+                            </div>
                         </div>
-                        <div class="w-1/2">
-                            <img src="../assets/buildings.svg" alt="buildings">
-                        </div>
+                        <nav>
+                            <ul class="flex items-center flex-col justify-between lg:flex-row">
+                                <li class="py-2 px-6 lg:border-r border-r-gray-200 "><a href="#">Kontakt</a></li>
+                                <li class="py-2 px-6 lg:border-r border-r-gray-200 "><a href="#">Impressum</a></li>
+                                <li class="py-2 px-6 lg:border-r border-r-gray-200 "><a href="#">Datenschutz</a></li>
+                                <li class="py-2 px-6 lg:border-r border-r-gray-200 "><a href="#">FAQ's</a></li>
+                                <li class="py-2 px-6"><a href="#">AGB</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav>
-                        <ul class="flex items-center justify-between">
-                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Kontakt</a></li>
-                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Impressum</a></li>
-                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Datenschutz</a></li>
-                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">FAQ's</a></li>
-                            <li class="py-2 px-6"><a href="#">AGB</a></li>
-                        </ul>
-                    </nav>
                 </nav>
             </div>
         </div>
     </header>
-
-    <section class="mt-[150px]">
-        <div class="container overflow-x-hidden relative mx-auto flex items-end pl-36 pb-36 h-[700px] bg-[url('../assets/main-image-3.png')] bg-center bg-no-repeat bg-cover text-white">
-            <h1 class="drop-shadow-sm text-[114px] leading-[140px] font-semibold tracking-widest">
+    
+    <section class="mt-[103px] md:mt-[150px]">
+        <div class="xl:container overflow-x-hidden relative mx-auto flex items-end h-[700px] bg-[url('../assets/main-image-3.png')] bg-center bg-no-repeat bg-cover text-white pl-10 pb-10 md:pl-36 md:pb-36">
+            <h1 class="drop-shadow-sm w-1/2 text-[10vw] leading-none tracking-widest text-clip font-semibold lg:text-[114px] lg:leading-[140px]">
                 Verkauf
             </h1>
             <div class="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col items-end space-y-2">
-                <a class="social-link flex group items-center space-x-2 text-2xl p-4 bg-darkBeige rounded-l-md duration-300 hover:translate-x-0" href="#">
+                <a class="social-link flex group items-center space-x-2 text-base md:text-2xl p-2 bg-darkBeige rounded-l-md duration-300 hover:translate-x-0 md:p-4" href="#">
                     <i class="fa fa-address-book py-1" aria-hidden="true"></i>
                     <span class="text-transparent whitespace-nowrap group-hover:text-white duration-300">Kontakt aufnehmen</span>
                 </a>
-                <a class="social-link flex group items-center space-x-2 text-2xl p-4 bg-brown rounded-l-md duration-300 hover:translate-x-0" href="#">
+                <a class="social-link flex group items-center space-x-2 text-base md:text-2xl p-2 bg-brown rounded-l-md duration-300 hover:translate-x-0 md:p-4" href="#">
                     <i class="fa fa-linkedin-square py-1" aria-hidden="true"></i>
                     <span class="text-transparent whitespace-nowrap group-hover:text-white duration-300">Linkedin</span>
                 </a>
-                <a class="social-link flex group items-center space-x-2 text-2xl p-4 bg-darkYellow rounded-l-md duration-300 hover:translate-x-0" href="#">
+                <a class="social-link flex group items-center space-x-2 text-base md:text-2xl p-2 bg-darkYellow rounded-l-md duration-300 hover:translate-x-0 md:p-4" href="#">
                     <i class="fa fa-instagram py-1" aria-hidden="true"></i>
                     <span class="text-transparent whitespace-nowrap group-hover:text-white duration-300">Instagram</span>
                 </a>
@@ -95,23 +96,19 @@
     </section>
 
     <section>
-        <div class="container mx-auto px-36 mt-40 flex space-x-[105px] items-center">
+        <div class="xl:container mx-auto flex flex-col px-5 mt-10 md:flex-row md:space-x-10 md:px-36 md:mt-40">
             <div>
-                <h2 class="text-darkYellow text-5xl font-semibold">Wir bieten Ihnen die richtige Strategie.</h2>
-                <h3 class="text-3xl mt-4">Effizienz vom ersten bis zum letzten Schritt.</h3>
+                <h2 class="text-darkYellow text-3xl lg:text-5xl font-semibold ">Wir bieten Ihnen die richtige Strategie.</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 mb-7">Effizienz vom ersten bis zum letzten Schritt.</h3>
             </div>
-            <article class="flex flex-col space-y-4 w-2/3 ">
-                <p>
-                    Bei dem Verkauf Ihrer Immobilie ist es ratsam professionelle Hilfe in Anspruch zu nehmen. Ihre Immobilie und die damit verbundenen Beleihungsunterlagen müssen vollständig aufbereitet und strukturiert werden. Solvente Kaufinteressenten müssen geprüft und Vertragsverhandlungen professionell durchgeführt werden. Wir übernehmen diese Aufgaben gerne für Sie. Nach erfolgter notarieller Beurkundung begleiten wir Sie bis zur Übergabe Ihrer Immobilie.
-                </p>
-                <p>
-                    Dank der Verwendung von mehreren Proptech Softwares konnten wir außerdem unsere Vermarktungsprozesse vollständig digitalisieren - das bedeutet noch mehr Komfort für unsere Kundenim gesamten Prozess.
-                </p>
-            </article>
+            <div class="flex flex-col space-y-5 md:w-1/2">
+                <p>Bei dem Verkauf Ihrer Immobilie ist es ratsam professionelle Hilfe in Anspruch zu nehmen. Ihre Immobilie und die damit verbundenen Beleihungsunterlagen müssen vollständig aufbereitet und strukturiert werden. Solvente Kaufinteressenten müssen geprüft und Vertragsverhandlungen professionell durchgeführt werden. Wir übernehmen diese Aufgaben gerne für Sie. Nach erfolgter notarieller Beurkundung begleiten wir Sie bis zur Übergabe Ihrer Immobilie. </p>
+                <p>Dank der Verwendung von mehreren Proptech Softwares konnten wir außerdem unsere Vermarktungsprozesse vollständig digitalisieren - das bedeutet noch mehr Komfort für unsere Kundenim gesamten Prozess. </p>
+            </div>
         </div>
         <hr class="max-w-[1632px] my-20 mx-auto">
     </section>
-
+<!-- 
     <section>
         <div class="container mx-auto px-10">
             <div class="flex  ml-[200px] mb-10 relative">
@@ -129,16 +126,16 @@
             </div>
         </div>
         <hr class="max-w-[1632px] my-20 mx-auto">
-    </section>
+    </section> -->
 
     <section>
-        <div class="container mx-auto px-10">
-            <div class="flex items-center p-5 bg-darkBeige space-x-10">
-                <div class="w-[760px] h-[502px] bg-[url('../assets/kontakt-4-1.png')] bg-cover bg-no-repeat bg-center"></div>
-                <div class="w-1/2" >
-                    <h2 class="text-5xl font-semibold ">Objektanalyse und Preisermittlung</h2>
-                    <p class="mt-7 mb-3">Sie möchten gerne Ihre Immobilie(n) durch einen professionellen Partner verkaufen oder vermieten? Dann stellen Sie gerne eine unverbindliche Anfrage! Durch die Erfassung erster Daten, können wir uns einen ersten Überblick über Ihre Immobilie(n) verschaffen, um dann im ersten Kennenlerngespräch individuell auf Ihre Wünsche eingehen zu können. </p>
-                    <p class="mb-[60px]">Wir freuen uns auf eine Zusammenarbeit mit Ihnen!</p>
+        <div class="xl:container mx-auto px-5 md:px-10">
+            <div class="flex flex-col items bg-darkBeige space-x-10 md:flex-row">
+                <div class="h-[20vh] w-full bg-[url('../assets/kontakt-4-1.png')] bg-cover bg-no-repeat bg-center md:w-[760px] md:h-[502px]"></div>
+                <div class="p-5 md:w-1/2" >
+                    <h2 class="text-3xl lg:text-5xl font-semibold ">Objektanalyse und Preisermittlung</h2>
+                    <p class="my-2 md:mt-7 md:mb-3">Sie möchten gerne Ihre Immobilie(n) durch einen professionellen Partner verkaufen oder vermieten? Dann stellen Sie gerne eine unverbindliche Anfrage! Durch die Erfassung erster Daten, können wir uns einen ersten Überblick über Ihre Immobilie(n) verschaffen, um dann im ersten Kennenlerngespräch individuell auf Ihre Wünsche eingehen zu können. </p>
+                    <p class="mb-5 md:mb-[60px]">Wir freuen uns auf eine Zusammenarbeit mit Ihnen!</p>
                     <a href="#" class="group duration-300 bg-white font-semibold py-4 px-5 flex items-center max-w-fit rounded-md hover:bg-opacity-90 shadow-md hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -147,163 +144,163 @@
     </section>
 
     <section>
-        <div class="container mx-auto pl-36 pr-40">
-            <h2 class="text-darkYellow text-5xl font-semibold">FAQ</h2>
+        <div class="xl:container mx-auto p-5 md:pl-36 md:pr-40">
+            <h2 class="text-darkYellow text-3xl lg:text-5xl font-semibold">FAQ</h2>
             <h3 class="text-3xl mt-4">Häufig gestellte Fragen zum Thema Verkauf</h3>
             <hr class="max-w-[1632px] my-10 mx-auto">
-            <div class="flex flex-col space-y-20">
+            <div class="flex flex-col space-y-10 md:space-y-20">
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Was ist ein Immobilienmakler?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <div class="flex space-x-10">
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Der Beruf eines Immobilienmaklers bedeutet, im Auftrag von Haus- oder Wohnungsbesitzern Käufer oder Mieter für Grundstücke, Häuser oder Wohnungen zu finden.
                         </p>
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Konkreter ausgedrückt bedeutet es, dass Ihr Immobilienmakler Sie in allen Fragen zu Immobilien berät und alle Aufgaben rund um Vermarktung, Verkauf sowie Vermietung übernimmt.
                         </p>
                     </div>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Was ist ein Maklervertrag?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <div class="flex space-x-10">
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Ein Maklervertrag ist ein privatrechtlicher Vertrag zwischen einem Auftraggeber und einem Immobilienmakler. Auftraggeber können sowohl Eigentümer sein, die eine Immobilie verkaufen oder vermieten wollen als auch Interessenten, die eine Immobilie zum Kauf oder zur Miete suchen.
                         </p>
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Der Gesetzgeber schreibt dabei nicht vor, was in diesem Vertrag geregelt werden muss. Vielmehr regelt er im Bürgerlichen Gesetzbuch nur die Frage der Vergütung. Demnach kann der Makler gegenüber dem Auftraggeber eine Vergütung verlangen, wenn er einen Kauf- oder Mietvertragsabschluss vermittelt oder nachgewiesen hat.
                         </p>
                     </div>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Was ist meine Immobilie wert?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <div class="flex space-x-10">
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Das hängt von vielen verschiedenen Faktoren ab (Lage, Zustand, Alter, aktuelle Marktsituation etc.), die durch uns geprüft werden können. Gerne erstellen wir Ihnen ein individuelles Wertgutachten für Ihre Immobilie
                         </p>
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Die Immobilienbewertung erfolgt kostenfrei und unverbindlich.
                         </p>
                     </div>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Was ist ein Makleralleinauftrag?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                         Bei einem Makleralleinauftrag übernimmt ein einziger Makler die Vermarktung Ihrer Immobilie. Der Vorteil für Sie: Ein individuelles Marketingkonzept sowie höchstes Engagement.
                     </p>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Wer bezahlt den Immobilienmakler?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <div class="flex space-x-10">
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Am 23.12.2020 trat das Gesetz über die Teilung der Maklerprovision und somit das neue Maklerrecht in Kraft. Künftig müssen sich nun Käufer und Verkäufer die Maklerprovision beim Immobilienkauf teilen.
                         </p>
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Das neue Maklerecht gilt nicht für Gewerbeimmobilien.
                         </p>
                     </div>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Warum sollte ich einen Immobilienmakler beauftragen?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <div class="flex space-x-10">
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Ein professioneller Immobilienmakler kennt den lokalen Immobilienmarkt genau und ist in der Lage, einen realistischen Verkaufspreis zu ermitteln, der Ihrer Immobilien und dem Marktgeschehen gerecht wird. Ein falscher Preis, egal ob zu hoch oder zu niedrig angesetzt, führt häufig zu Einbußen für den Eigentümer.
                         </p>
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Zudem ist der Verkauf einer Immobilie mit einem hohen Aufwand verbunden. Eigentümern fehlen oft die Zeit und die Kenntnisse, sich den anfallenden Aufgaben angemessen widmen zu können.
                         </p>
                     </div>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Was wenn ich keine Dokumente mehr zur meiner Immobilie habe?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <div class="flex space-x-10">
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Das stellt normalerweise kein Problem dar. Wir kümmern uns um die Erstellung, Einholung oder Beantragung notwendiger Dokumente mit der entsprechenden Vollmacht, die in der Regel ohnehin Bestandteil unserer Verträge ist.
                         </p>
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Gegebenenfalls unterstützen wir Sie bei diversen Behördenkorrespondenzen bzw. übernehmen diese für Sie.
                         </p>
                     </div>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Was ist ein Grundbuch?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <div class="flex space-x-10">
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Das Grundbuch ist ein beim Grundbuchamt (Amtsgericht) gepflegtes, öffentliches Register, in dem die Wirtschafts- und Rechtsverhältnisse an Grundstücken dargelegt und festgehalten werden, es genießt öffentliches Recht.
                         </p>
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Das deutsche Gesetz sieht vor, dass alle Grundstücke in diesem Register erfasst werden.
                         </p>
                     </div>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Brauche ich für den Verkauf meiner Immobilie einen gültigen Energieausweis?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <div class="flex space-x-10">
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Seit Mai 2014 ist die Vorlage eines gültigen Energieausweises bei Besichtigungen Pflicht. Bei Nichteinhaltung können dem Eigentümer empfindliche Strafen drohen. Man unterscheidet grundsätzlich zwischen dem Bedarfsausweis und dem Verbrauchsausweis zur Dokumentation des energetischen Standards.
                         </p>
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Der Energieausweis gibt eine detaillierte Übersicht über die Verbrauchswerte einer Immobilie bzw. zeigt er den theoretisch benötigten Energiebedarf auf.
                         </p>
                     </div>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Muss ich beim Immobilienverkauf Steuern zahlen?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <div class="flex space-x-10">
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             In der Regel fällt beim Verkauf von selbstgenutzten Immobilien selbst bei einem Wertgewinn keine Immobilien-Spekulationssteuer an.
                         </p>
-                        <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                        <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                             Bei vermieteten Immobilien ist hingegen ein Wertgewinn zu versteuern, insofern zwischen dem Kauf und dem Verkauf der Immobilie nicht mindestens 10 Jahre liegen.
                         </p>
                     </div>
                 </div>
                 <div class="question-dropdown">
-                    <div class="flex items-center justify-between text-brown text-3xl">
+                    <div class="flex items-center justify-between text-brown text-xl space-x-5 lg:text-3xl">
                         <h3>Mit welchen Nebenkosten ist bei einem Kauf zu rechnen?</h3>
                         <button class="question-dropdown-button"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
                     </div>
                     <hr class="bg-darkBeige h-[3px] my-5">
-                    <p class="dropdown-answer w-1/2 hidden scale-y-0">
+                    <p class="dropdown-answer md:w-1/2 hidden scale-y-0">
                         Die Nebenkosten bei einem Immo                            In der Teilungserklärung wird festgehalten, was zum Gemeinschaftseigentums und was zum Sondereigentum zählt. Das Gemeinschaftseigentum bezieht sich auf alle Installationen und Objekte eines Gebäudes, welche von allen Eigentümern genutzt werden.
                         bilienkauf belaufen sich auf ca. 13% vom Kaufpreis. Sie sollten in der Regel mit 6,5% Grunderwerbsteuer, 1,1% Grundbucheintragung, den Kosten für den Notar in der Höhe von 1,2% bis 2% sowie einem Maklerhonorar in der Höhe von 3,57% rechnen.
                     </p>
@@ -315,25 +312,25 @@
 
 
     <section>
-        <div class="container mx-auto px-10">
+        <div class="xl:container mx-auto px-5 md:px-10">
             <div class="flex flex-col space-y-5">
-                <div class="grid grid-cols-2">
-                    <div class="bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center"></div>
-                    <div class="p-[100px] min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
-                        <h2 class="text-darkYellow text-5xl font-semibold">Referenzen</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="h-[20vh] w-full bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center md:h-full"></div>
+                    <div class="p-5 flex flex-col justify-center pr-16 bg-lightBeige md:p-[100px] md:min-h-[660px] ">
+                        <h2 class="text-darkYellow text-3xl lg:text-5xl font-semibold">Referenzen</h2>
                         <h3 class="text-3xl mt-4 mb-7">Referenzprojekte zu Vermietung, Verkauf oder Verwaltung</h3>
                         <p class="mb-[60px]">Gerne stellen wir Ihnen einige unserer erfolgreich verkauften, vermieteten oder verwalteten Immobilien vor.</p>
                         <a href="#" class="group duration-300 bg-white font-semibold bg-opacity-80 py-4 px-5 flex items-center rounded-md shadow-md w-fit hover:bg-opacity-90 hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
                     </div>
                 </div>
-                <div class="grid grid-cols-2">
-                    <div class="p-[100px] min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
-                        <h2 class="text-darkYellow text-5xl font-semibold">Immobilienangebote</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="p-5 order-2 flex flex-col justify-center pr-16 bg-lightBeige md:order-2 md:p-[100px] md:min-h-[660px] ">
+                        <h2 class="text-darkYellow text-3xl lg:text-5xl font-semibold">Immobilienangebote</h2>
                         <h3 class="text-3xl mt-4 mb-7">Verkauf und Vermietung</h3>
                         <p class="mb-[60px]">Sie möchten ein Haus oder eine Wohnung kaufen oder mieten? Verschaffen Sie sich gerne einen Überblick über unsere aktuellen Angebote.</p>
                         <a href="#" class="group duration-300 bg-white font-semibold bg-opacity-80 py-4 px-5 flex items-center rounded-md shadow-md w-fit hover:bg-opacity-90 hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
                     </div>
-                    <div class="bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center"></div>
+                    <div class="h-[20vh] w-full order-1 bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center md:h-full md:order-2"></div>
                 </div>
             </div>
         </div>
@@ -341,15 +338,15 @@
     </section>
 
     <footer>
-        <div class="container mx-auto">
+        <div class="mx-auto xl:container">
             <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.3643590477486!2d7.509864715769309!3d51.48818087963198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b91766416cb8cf%3A0xd92367b6a1151019!2sLIREAL%20GmbH%20-%20Immobilienverwaltung%20und%20-vermittlung!5e0!3m2!1ska!2sge!4v1657214693152!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="flex">
-                <div class="w-[350px] aspect-square flex justify-center items-center bg-darkGrey">
+            <div class="flex flex-col lg:flex-row">
+                <div class="w-full max-h-[350px] aspect-square flex justify-center items-center bg-darkGrey lg:w-[350px] lg:max-h-max">
                     <img src="../assets/logo.png" alt="logo">
                 </div>
-                <div class="w-full h-[350px] bg-lightBeige flex space-x-10 items-center justify-center">
-                    <div>
-                        <h3 class="text-3xl text-darkYellow font-semibold mb-3">Kontakt</h3>
+                <div class="w-full p-5 bg-lightBeige flex flex-col space-y-10 items-start justify-center md:space-y-0 md:flex-row md:space-x-10 md:items-center">
+                    <div class="flex flex-col self-center">
+                        <h3 class="text-xl lg:text-3xl text-darkYellow font-semibold mb-3">Kontakt</h3>
                         <div class="flex space-x-20 text-sm">
                             <div class="flex flex-col space-y-2">
                                 <span class="font-semibold">Lireal GmbH</span>
@@ -363,15 +360,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-2/4">
-                        <h3 class="text-3xl text-darkYellow font-semibold mb-3">Mitgliedschaften</h3>
-                        <div class="flex justify-between items-center">
-                            <a class="block w-32 h-auto" href="#"><img class="w-full h-full" src="../assets/vdiv-logo.png" alt="vdiv logo"></a>
-                            <a class="block w-[120px] h-auto" href="#"><img class="w-full h-full" src="../assets/rics-logo.png" alt="RICS logo"></a>
-                            <a class="block w-12 h-auto" href="#"><img class="w-full h-full" src="../assets/partner-2021.png" alt="partner-2021"></a>
+                    <div class="w-full md:w-2/4">
+                        <h3 class=" text-xl lg:text-3xl text-darkYellow font-semibold mb-3 text-center md:text-left">Mitgliedschaften</h3>
+                        <div class="flex justify-between space-x-3 items-center">
+                            <a class="block max-w-[128px] h-auto" href="#"><img class="w-full h-full" src="../assets/vdiv-logo.png" alt="vdiv logo"></a>
+                            <a class="block max-w-[120px] h-auto" href="#"><img class="w-full h-full" src="../assets/rics-logo.png" alt="RICS logo"></a>
+                            <a class="block w-[60px] h-auto md:w-[120px]" href="#"><img class="w-full h-full" src="../assets/partner-2021.png" alt="partner-2021"></a>
                             <div>
-                                <a class="block w-[100px] h-auto" href="#"><img class="w-full h-full" src="../assets/google-logo.png" alt="google logo"></a>
-                                <div class="flex-items-center space-x-2 my-2 text-xl text-darkYellow">
+                                <a class="block max-w-[100px] h-auto" href="#"><img class="w-full h-full" src="../assets/google-logo.png" alt="google logo"></a>
+                                <div class="flex-items-center space-x-2 my-2 text-base lg:text-xl text-darkYellow">
                                     <span class="text-black font-semibold">4.5</span>
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -385,7 +382,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full h-[100px] flex items-center justify-between bg-darkBeige text-sm font-semibold pl-20 pr-10">
+            <div class="w-full h-[100px] grid  items-center justify-between bg-darkBeige text-sm font-semibold pl-5 pr-2 sm:grid-cols-4 md:pl-20 md:pr-10">
                 <a class="uppercase" href="#">impressum</a>
                 <a class="uppercase" href="#">datenshutz</a>
                 <a class="uppercase text-darkGrey opacity-40" href="#">cookies</a>
