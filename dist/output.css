@@ -786,8 +786,8 @@ html {
   margin-right: 0.5rem;
 }
 
-.mb-\[100px\] {
-  margin-bottom: 100px;
+.mt-\[103px\] {
+  margin-top: 103px;
 }
 
 .mb-5 {
@@ -850,6 +850,10 @@ html {
   margin-bottom: 20px;
 }
 
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
 .ml-\[100px\] {
   margin-left: 100px;
 }
@@ -904,10 +908,6 @@ html {
   height: 40vh;
 }
 
-.h-\[350px\] {
-  height: 350px;
-}
-
 .h-auto {
   height: auto;
 }
@@ -928,6 +928,10 @@ html {
   height: 700px;
 }
 
+.h-\[350px\] {
+  height: 350px;
+}
+
 .h-\[482px\] {
   height: 482px;
 }
@@ -944,8 +948,8 @@ html {
   height: 150px;
 }
 
-.h-2\/4 {
-  height: 50%;
+.h-\[20vh\] {
+  height: 20vh;
 }
 
 .h-5 {
@@ -1180,6 +1184,10 @@ html {
   gap: 1.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -1298,10 +1306,10 @@ html {
   margin-bottom: calc(5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-\[100px\] > :not([hidden]) ~ :not([hidden]) {
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(100px * var(--tw-space-x-reverse));
-  margin-left: calc(100px * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -1664,10 +1672,6 @@ html {
   padding: 9rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1738,19 +1742,14 @@ html {
   padding-right: 9rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
 }
 
 .px-8 {
@@ -1784,10 +1783,6 @@ html {
 
 .pl-4 {
   padding-left: 1rem;
-}
-
-.pr-16 {
-  padding-right: 4rem;
 }
 
 .pb-20 {
@@ -1834,12 +1829,20 @@ html {
   padding-right: 10rem;
 }
 
-.pr-28 {
-  padding-right: 7rem;
+.pr-16 {
+  padding-right: 4rem;
 }
 
-.pl-\[100px\] {
-  padding-left: 100px;
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
 }
 
 .text-center {
@@ -2038,6 +2041,11 @@ h1,
   h2,
   h3 {
   font-weight: 600;
+}
+
+h2,
+  h3 {
+  word-break: break-all;
 }
 
 .hamburger {
@@ -2414,6 +2422,22 @@ h1,
 }
 
 @media (min-width: 1025px) {
+  .md\:mt-\[150px\] {
+    margin-top: 150px;
+  }
+
+  .md\:mt-40 {
+    margin-top: 10rem;
+  }
+
+  .md\:mb-\[100px\] {
+    margin-bottom: 100px;
+  }
+
+  .md\:mb-7 {
+    margin-bottom: 1.75rem;
+  }
+
   .md\:h-\[69px\] {
     height: 69px;
   }
@@ -2422,6 +2446,22 @@ h1,
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:h-\[502px\] {
+    height: 502px;
+  }
+
+  .md\:h-1\/2 {
+    height: 50%;
+  }
+
+  .md\:min-h-\[660px\] {
+    min-height: 660px;
   }
 
   .md\:w-fit {
@@ -2442,6 +2482,10 @@ h1,
     width: 120px;
   }
 
+  .md\:w-\[760px\] {
+    width: 760px;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2454,6 +2498,10 @@ h1,
     align-items: center;
   }
 
+  .md\:gap-\[100px\] {
+    gap: 100px;
+  }
+
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -2464,6 +2512,12 @@ h1,
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-y-20 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(5rem * var(--tw-space-y-reverse));
   }
 
   .md\:p-10 {
@@ -2482,6 +2536,14 @@ h1,
     padding: 100px;
   }
 
+  .md\:p-0 {
+    padding: 0px;
+  }
+
+  .md\:p-5 {
+    padding: 1.25rem;
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -2490,6 +2552,26 @@ h1,
   .md\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .md\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .md\:px-\[100px\] {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .md\:pl-8 {
@@ -2516,8 +2598,16 @@ h1,
     padding-right: 2.5rem;
   }
 
-  .md\:pr-1 {
-    padding-right: 0.25rem;
+  .md\:pl-36 {
+    padding-left: 9rem;
+  }
+
+  .md\:pb-36 {
+    padding-bottom: 9rem;
+  }
+
+  .md\:pr-40 {
+    padding-right: 10rem;
   }
 
   .md\:text-left {
