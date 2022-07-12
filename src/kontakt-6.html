@@ -9,16 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
 </head>
-<body>
+<body class="text-sm md:text-base">
     <header>
-        <div class="container mx-auto p-10 bg-white flex items-center  h-fit shadow-xl fixed left-0 right-0 top-0 z-10">
-            <a class="block h-[69px]" href="..//index.html"><img class="w-full h-full" src="../assets/logo.png" alt="logo"></a>
+        <div class="mx-auto fixed p-5 bg-white flex items-center bg-opacity-75 h-fit shadow-xl left-0 right-0 top-0 z-20 md:p-10 xl:container">
+            <a class="block h-10 md:h-[69px]" href="../index.html"><img class="w-full h-full" src="../assets/logo.png" alt="logo"></a>
             <nav class="mx-auto">
-                
-                <ul class="flex space-x-24">
-                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="./kontakt-4.html">Vermietung</a></li>
-                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verwaltung</a></li>
-                    <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verkauf</a></li>
+                <ul class="hidden space-x-24 lg:flex">
+                    <li><a class="font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-xl" href="#">Vermietung</a></li>
+                    <li><a class="font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-xl" href="#">Verwaltung</a></li>
+                    <li><a class="font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-xl" href="#">Verkauf</a></li>
                 </ul>
             </nav>
             <div class="aside-menu">
@@ -27,66 +26,68 @@
                     <div class="hamburger-line"></div>
                     <div class="hamburger-line"></div>
                 </button>
-                <nav class="menu absolute flex flex-col -right-full top-0 min-h-full px-20 py-10 space-y-5 bg-darkBeige bg-opacity-80">
-                    <div class="flex justify-between">
-                        <div class="flex w-[512px] rounded-md shadow-lg bg-white">
+                <nav class="menu absolute flex flex-col w-full p-5 -right-full top-0 bg-opacity-80 bg-darkBeige z-100 h-screen lg:px-20 lg:py-10 lg:space-y-5 md:w-fit md:h-fit">
+                    <div class="flex justify-between items-start">
+                        <div class="flex max-w-[512px] mb-2 rounded-md shadow-lg bg-white order-2 lg:order-1">
                             <input class="border-0 w-full h-full p-4 focus-within:outline-none " type="search" name="search" id="search" placeholder="Suche">
                             <button class="text-2xl rounded-r-md  p-3 bg-lightYellow "><i class="fa fa-search" aria-hidden="true"></i></button>
                         </div>
-                        <button class="aside-menu-hamburger active">
+                        <button class="aside-menu-hamburger active order-1 lg:order-2">
                             <div class="hamburger-line"></div>
                             <div class="hamburger-line"></div>
                             <div class="hamburger-line"></div>
                         </button>
                     </div>
-                    <ul class="flex flex-col space-y-6 mb-10">
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Home</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Vermieutung</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verwaltung</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Verkauf</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Referenzen</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Immobilienangebote</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Unternehmen</a></li>
-                        <li><a class="text-3xl font-semibold duration-300 ease-in-out hover:text-lightYellow" href="#">Karriere</a></li>
+                    <ul class="flex flex-col space-y-2 mb-4 lg:mb-10 lg:space-y-6">
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Home</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Vermieutung</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Verwaltung</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Verkauf</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Referenzen</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Immobilienangebote</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Unternehmen</a></li>
+                        <li><a class="text-xl font-semibold duration-300 ease-in-out hover:text-lightYellow lg:text-3xl" href="#">Karriere</a></li>
                     </ul>
-                    <div class="w-full p-10 bg-white bg-opacity-75 backdrop-blur-lg flex items-center space-x-10 shadow-lg rounded-lg">
-                        <div class="w-1/2 flex flex-col space-y-3">
-                            <span class="block">Jetzt ganz einfach personlich beraten lassen.</span>
-                            <a href="#" class="group duration-300 bg-white font-semibold py-4 px-5 flex items-center max-w-fit rounded-md hover:bg-opacity-90 shadow-md hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                    <div class="flex items-center lg:flex-col lg:items-start">
+                        <div class="w-full p-3 bg-white bg-opacity-75 backdrop-blur-lg flex flex-col items-start space-y-10 shadow-lg rounded-lg sm:flex-row lg:p-10">
+                            <div class="flex flex-col space-y-3 lg:w-1/2">
+                                <span class="block">Jetzt ganz einfach personlich beraten lassen.</span>
+                                <a href="#" class="group  duration-300 bg-white font-semibold py-4 px-5 flex items-center max-w-fit rounded-md hover:bg-opacity-90 shadow-md hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
+                            </div>
+                            <div class="w-1/2 max-w-[250px]">
+                                <img class="object-contain" src="../assets/buildings.svg" alt="buildings">
+                            </div>
                         </div>
-                        <div class="w-1/2">
-                            <img src="../assets/buildings.svg" alt="buildings">
-                        </div>
+                        <nav>
+                            <ul class="flex items-center flex-col justify-between lg:flex-row">
+                                <li class="py-2 px-6 lg:border-r border-r-gray-200 "><a href="#">Kontakt</a></li>
+                                <li class="py-2 px-6 lg:border-r border-r-gray-200 "><a href="#">Impressum</a></li>
+                                <li class="py-2 px-6 lg:border-r border-r-gray-200 "><a href="#">Datenschutz</a></li>
+                                <li class="py-2 px-6 lg:border-r border-r-gray-200 "><a href="#">FAQ's</a></li>
+                                <li class="py-2 px-6"><a href="#">AGB</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav>
-                        <ul class="flex items-center justify-between">
-                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Kontakt</a></li>
-                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Impressum</a></li>
-                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">Datenschutz</a></li>
-                            <li class="py-2 px-6 border-r border-r-gray-200 "><a href="#">FAQ's</a></li>
-                            <li class="py-2 px-6"><a href="#">AGB</a></li>
-                        </ul>
-                    </nav>
                 </nav>
             </div>
         </div>
     </header>
-
-    <section class="mt-[150px]">
-        <div class="container overflow-x-hidden relative mx-auto flex items-end pl-36 pb-36 h-[700px] bg-[url('../assets/red-building.png')] bg-center bg-no-repeat bg-cover text-white">
-            <h1 class="drop-shadow-sm text-[114px] leading-[140px] font-semibold tracking-widest">
+    
+    <section class="mt-[103px] md:mt-[150px]">
+        <div class="xl:container overflow-x-hidden relative mx-auto flex items-end h-[700px] bg-[url('../assets/red-building.png')] bg-center bg-no-repeat bg-cover text-white pl-10 pb-10 md:pl-36 md:pb-36">
+            <h1 class="drop-shadow-sm w-1/2 text-[10vw] leading-none tracking-widest text-clip font-semibold lg:text-[114px] lg:leading-[140px]">
                 Referenzen
             </h1>
             <div class="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col items-end space-y-2">
-                <a class="social-link flex group items-center space-x-2 text-2xl p-4 bg-darkBeige rounded-l-md duration-300 hover:translate-x-0" href="#">
+                <a class="social-link flex group items-center space-x-2 text-base md:text-2xl p-2 bg-darkBeige rounded-l-md duration-300 hover:translate-x-0 md:p-4" href="#">
                     <i class="fa fa-address-book py-1" aria-hidden="true"></i>
                     <span class="text-transparent whitespace-nowrap group-hover:text-white duration-300">Kontakt aufnehmen</span>
                 </a>
-                <a class="social-link flex group items-center space-x-2 text-2xl p-4 bg-brown rounded-l-md duration-300 hover:translate-x-0" href="#">
+                <a class="social-link flex group items-center space-x-2 text-base md:text-2xl p-2 bg-brown rounded-l-md duration-300 hover:translate-x-0 md:p-4" href="#">
                     <i class="fa fa-linkedin-square py-1" aria-hidden="true"></i>
                     <span class="text-transparent whitespace-nowrap group-hover:text-white duration-300">Linkedin</span>
                 </a>
-                <a class="social-link flex group items-center space-x-2 text-2xl p-4 bg-darkYellow rounded-l-md duration-300 hover:translate-x-0" href="#">
+                <a class="social-link flex group items-center space-x-2 text-base md:text-2xl p-2 bg-darkYellow rounded-l-md duration-300 hover:translate-x-0 md:p-4" href="#">
                     <i class="fa fa-instagram py-1" aria-hidden="true"></i>
                     <span class="text-transparent whitespace-nowrap group-hover:text-white duration-300">Instagram</span>
                 </a>
@@ -95,252 +96,247 @@
     </section>
 
     <section>
-        <div class="container mx-auto px-36 mt-40 flex space-x-[105px] items-center">
+        <div class="xl:container mx-auto flex flex-col px-5 mt-10 md:flex-row md:space-x-10 md:px-36 md:mt-40">
             <div>
-                <h2 class="text-darkYellow text-5xl font-semibold">Referenzobjekte</h2>
-                <h3 class="text-3xl mt-4">Ein Überblick über unsere bisherige Arbeit.</h3>
-            </div>
-            <article class="flex flex-col space-y-4 w-2/3 ">
-                <p>
-                    Zufriedene Kunden sind das beste Aushängeschild für erfolgreiche Arbeit und spornen uns täglich an, beste Arbeit zu liefern und uns stetig zu verbessern. Daher möchten wir Ihnen hier einen Überblick einiger Referenzobjekte aus Vermietung, Verkauf und Verwaltung geben - machen Sie sich selbst ein Bild.
-                </p>
-            </article>
-        </div>
-        <hr class="max-w-[1632px] my-20 mx-auto">
-    </section>
-
-    <section>
-        <div class="container mx-auto px-36 grid grid-cols-2 gap-5">
-            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-1.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
-                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0  py-[100px] px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
-                    <h2 class="text-[40px] font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
-                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
-                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
-                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
-                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
-                    </div>
-                    <div class="flex justify-evenly">
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Kaufpreis</span>
-                            <span>€ 473.900</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Wohnfläche</span>
-                            <span>136 m²</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Zimmer</span>
-                            <span>4</span>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-white text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
-                <h3 class="text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
-            </div>
-            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-2.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
-                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0  py-[100px] px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
-                    <h2 class="text-[40px] font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
-                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
-                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
-                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
-                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
-                    </div>
-                    <div class="flex justify-evenly">
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Kaufpreis</span>
-                            <span>€ 473.900</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Wohnfläche</span>
-                            <span>136 m²</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Zimmer</span>
-                            <span>4</span>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-white text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
-                <h3 class="text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
-            </div>
-            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-3.jpeg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
-                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0  py-[100px] px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
-                    <h2 class="text-[40px] font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
-                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
-                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
-                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
-                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
-                    </div>
-                    <div class="flex justify-evenly">
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Kaufpreis</span>
-                            <span>€ 473.900</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Wohnfläche</span>
-                            <span>136 m²</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Zimmer</span>
-                            <span>4</span>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-white text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
-                <h3 class="text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
-            </div>
-            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-4.jpeg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
-                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0  py-[100px] px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
-                    <h2 class="text-[40px] font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
-                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
-                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
-                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
-                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
-                    </div>
-                    <div class="flex justify-evenly">
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Kaufpreis</span>
-                            <span>€ 473.900</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Wohnfläche</span>
-                            <span>136 m²</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Zimmer</span>
-                            <span>4</span>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-white text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
-                <h3 class="text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
-            </div>
-            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-1.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
-                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0  py-[100px] px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
-                    <h2 class="text-[40px] font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
-                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
-                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
-                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
-                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
-                    </div>
-                    <div class="flex justify-evenly">
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Kaufpreis</span>
-                            <span>€ 473.900</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Wohnfläche</span>
-                            <span>136 m²</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Zimmer</span>
-                            <span>4</span>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-white text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
-                <h3 class="text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
-            </div>
-            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-2.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
-                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0  py-[100px] px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
-                    <h2 class="text-[40px] font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
-                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
-                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
-                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
-                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
-                    </div>
-                    <div class="flex justify-evenly">
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Kaufpreis</span>
-                            <span>€ 473.900</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Wohnfläche</span>
-                            <span>136 m²</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Zimmer</span>
-                            <span>4</span>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-white text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
-                <h3 class="text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
-            </div>
-            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-3.jpeg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
-                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0  py-[100px] px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
-                    <h2 class="text-[40px] font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
-                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
-                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
-                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
-                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
-                    </div>
-                    <div class="flex justify-evenly">
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Kaufpreis</span>
-                            <span>€ 473.900</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Wohnfläche</span>
-                            <span>136 m²</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Zimmer</span>
-                            <span>4</span>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-white text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
-                <h3 class="text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
-            </div>
-            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-4.jpeg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
-                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0  py-[100px] px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
-                    <h2 class="text-[40px] font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
-                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
-                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
-                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
-                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
-                    </div>
-                    <div class="flex justify-evenly">
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Kaufpreis</span>
-                            <span>€ 473.900</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Wohnfläche</span>
-                            <span>136 m²</span>
-                        </div>
-                        <div class="flex flex-col items-center space-y-2">
-                            <span class="font-bold">Zimmer</span>
-                            <span>4</span>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-white text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
-                <h3 class="text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
+                <h2 class="text-darkYellow text-3xl lg:text-5xl font-semibold ">Referenzobjekte</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 mb-7">Ein Überblick über unsere bisherige Arbeit.</h3>
             </div>
         </div>
         <hr class="max-w-[1632px] my-20 mx-auto">
     </section>
 
     <section>
-        <div class="container mx-auto px-10">
-            <div class="px-40 mb-12">
-                <h2 class="text-darkYellow text-5xl font-semibold">Unsere Kundenstimmen</h2>
-                <h3 class="text-3xl mt-4">Ihre Meinung ist uns wichtig!</h3>
+        <div class="xl:container mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 gap-5 md:px-36">
+            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-1.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
+                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0 py-10 lg:py-[100px] px-5 lg:px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
+                    <h2 class="text-3xl lg:text-[40px] leading-tight font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
+                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
+                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
+                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
+                    </div>
+                    <div class="flex justify-evenly">
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Kaufpreis</span>
+                            <span>€ 473.900</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Wohnfläche</span>
+                            <span>136 m²</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Zimmer</span>
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-3xl lg:text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
             </div>
-            <div class="w-full bg-lightBeige min-h-[645px] px-20 py-[60px] flex flex-col items-center space-y-5">
-                <div class="text-darkYellow bg-lightYellow w-[70px] aspect-square rounded-full font-semibold text-3xl flex justify-center items-center">CS</div>
-                <span class="font-bold text-xl">Claudia Schmidt</span>
-                <div class="flex space-x-2 text-darkYellow text-3xl">
+            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-2.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
+                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0 py-10 lg:py-[100px] px-5 lg:px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
+                    <h2 class="text-3xl lg:text-[40px] leading-tight font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
+                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
+                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
+                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
+                    </div>
+                    <div class="flex justify-evenly">
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Kaufpreis</span>
+                            <span>€ 473.900</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Wohnfläche</span>
+                            <span>136 m²</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Zimmer</span>
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-3xl lg:text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
+            </div>
+            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-3.jpeg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
+                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0 py-10 lg:py-[100px] px-5 lg:px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
+                    <h2 class="text-3xl lg:text-[40px] leading-tight font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
+                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
+                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
+                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
+                    </div>
+                    <div class="flex justify-evenly">
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Kaufpreis</span>
+                            <span>€ 473.900</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Wohnfläche</span>
+                            <span>136 m²</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Zimmer</span>
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-3xl lg:text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
+            </div>
+            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-4.jpeg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
+                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0 py-10 lg:py-[100px] px-5 lg:px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
+                    <h2 class="text-3xl lg:text-[40px] leading-tight font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
+                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
+                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
+                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
+                    </div>
+                    <div class="flex justify-evenly">
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Kaufpreis</span>
+                            <span>€ 473.900</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Wohnfläche</span>
+                            <span>136 m²</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Zimmer</span>
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-3xl lg:text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
+            </div>
+            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-1.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
+                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0 py-10 lg:py-[100px] px-5 lg:px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
+                    <h2 class="text-3xl lg:text-[40px] leading-tight font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
+                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
+                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
+                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
+                    </div>
+                    <div class="flex justify-evenly">
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Kaufpreis</span>
+                            <span>€ 473.900</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Wohnfläche</span>
+                            <span>136 m²</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Zimmer</span>
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-3xl lg:text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
+            </div>
+            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-2.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
+                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0 py-10 lg:py-[100px] px-5 lg:px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
+                    <h2 class="text-3xl lg:text-[40px] leading-tight font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
+                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
+                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
+                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
+                    </div>
+                    <div class="flex justify-evenly">
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Kaufpreis</span>
+                            <span>€ 473.900</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Wohnfläche</span>
+                            <span>136 m²</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Zimmer</span>
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-3xl lg:text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
+            </div>
+            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-3.jpeg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
+                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0 py-10 lg:py-[100px] px-5 lg:px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
+                    <h2 class="text-3xl lg:text-[40px] leading-tight font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
+                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
+                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
+                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
+                    </div>
+                    <div class="flex justify-evenly">
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Kaufpreis</span>
+                            <span>€ 473.900</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Wohnfläche</span>
+                            <span>136 m²</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Zimmer</span>
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-3xl lg:text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
+            </div>
+            <div class="relative group p-10 h-[700px] bg-[url('../assets/house-4.jpeg')] bg-cover bg-center bg-no-repeat flex flex-col justify-end overflow-hidden">
+                <div class="absolute w-full h-full bg-darkBeige bg-opacity-80 transition-transform duration-500 left-0 top-0 py-10 lg:py-[100px] px-5 lg:px-20 flex-col space-y-2 flex justify-center -translate-y-full group-hover:translate-y-0">
+                    <h2 class="text-3xl lg:text-[40px] leading-tight font-bold">Atemberaubende Villa in Castrop-Rauxel</h2>
+                    <h4 class="text-brown text-xl">Leben im Traumhaus</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    <div class="flex items-center space-x-4 !mt-5 !mb-6">
+                        <i class="fa fa-map-marker text-darkYellow" aria-hidden="true"></i>
+                        <span>44579 Castrop-Rauxel, Recklinghausen (Kreis)</span>
+                    </div>
+                    <div class="flex justify-evenly">
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Kaufpreis</span>
+                            <span>€ 473.900</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Wohnfläche</span>
+                            <span>136 m²</span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <span class="font-bold">Zimmer</span>
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-3xl lg:text-5xl font-semibold group-hover:hidden">Atemberaubende Villa in Castrop-Rauxel</h2>
+                <h3 class="text-xl lg:text-3xl mt-4 text-darkYellow group-hover:hidden">Loben im Traumhaus</h3>
+            </div>
+        </div>
+        <hr class="max-w-[1632px] my-20 mx-auto">
+    </section>
+
+    <section>
+        <div class="xl:container mx-auto px-5 md:px-10">
+            <div class="px-3 mb-2 md:px-40 md:mb-12">
+                <h2 class="text-darkYellow text-3xl lg:text-5xl font-semibold">Unsere Kundenstimmen</h2>
+                <h3 class="text-xl lg:text-3xl mt-4">Ihre Meinung ist uns wichtig!</h3>
+            </div>
+            <div class="w-full bg-lightBeige px-2 py-4 md:min-h-[645px] md:px-20 md:py-[60px] flex flex-col items-center space-y-5">
+                <div class="text-darkYellow bg-lightYellow w-10 md:w-[70px] aspect-square rounded-full font-semibold text-xl md:text-3xl flex justify-center items-center">CS</div>
+                <span class="font-bold text-base md:text-xl">Claudia Schmidt</span>
+                <div class="flex space-x-2 text-darkYellow text-xl md:text-3xl">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -348,12 +344,12 @@
                     <i class="fa fa-star-half-o" aria-hidden="true"></i>
                 </div>
                 <span class="!mt-2">Vor 5 Monaten</span>
-                <div class="flex space-x-[60px] items-start text-3xl !mt-[60px]">
-                    <button><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                <div class="flex space-x-8 md:space-x-[60px] items-start text-xl md:text-3xl !mt-4 md:!mt-[60px]">
+                    <button class="text-2xl md:text-4xl"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
                     <p class="text-darkGrey text-center">
                         Wir können die LIREAL GmbH sehr empfehlen. Es war alles unkompliziert. Herr Mohanadas hat sich sehr viel Zeit genommen, uns mehrere Wohnungen gezeigt und dank ihm haben wir innerhalb kürzester Zeit unsere Taumwohnung gefunden. Vielen Dank hierfür nochmals.
                     </p>
-                    <button><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    <button class="text-2xl md:text-4xl"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
@@ -361,25 +357,25 @@
     </section>
 
     <section>
-        <div class="container mx-auto px-10">
+        <div class="xl:container mx-auto px-5 md:px-10">
             <div class="flex flex-col space-y-5">
-                <div class="grid grid-cols-2">
-                    <div class="bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center"></div>
-                    <div class="p-[100px] min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
-                        <h2 class="text-darkYellow text-5xl font-semibold">Referenzen</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="h-[40vh] w-full bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center md:h-full"></div>
+                    <div class="p-5 flex flex-col justify-center pr-16 bg-lightBeige md:p-[100px] md:min-h-[660px] ">
+                        <h2 class="text-darkYellow text-3xl lg text-3xl:lg: font-semibold">Referenzen</h2>
                         <h3 class="text-3xl mt-4 mb-7">Referenzprojekte zu Vermietung, Verkauf oder Verwaltung</h3>
                         <p class="mb-[60px]">Gerne stellen wir Ihnen einige unserer erfolgreich verkauften, vermieteten oder verwalteten Immobilien vor.</p>
                         <a href="#" class="group duration-300 bg-white font-semibold bg-opacity-80 py-4 px-5 flex items-center rounded-md shadow-md w-fit hover:bg-opacity-90 hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
                     </div>
                 </div>
-                <div class="grid grid-cols-2">
-                    <div class="p-[100px] min-h-[660px] flex flex-col justify-center pr-16 bg-lightBeige">
-                        <h2 class="text-darkYellow text-5xl font-semibold">Immobilienangebote</h2>
-                        <h3 class="text-3xl mt-4 mb-7">Verkauf und Vermietung</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="p-5 order-2 flex flex-col justify-center pr-16 bg-lightBeige md:order-2 md:p-[100px] md:min-h-[660px] ">
+                        <h2 class="text-darkYellow text-3xl lg text-3xl:lg: font-semibold">Immobilienangebote</h2>
+                        <h3 class="text-xl lg:text-3xl mt-4 mb-7">Verkauf und Vermietung</h3>
                         <p class="mb-[60px]">Sie möchten ein Haus oder eine Wohnung kaufen oder mieten? Verschaffen Sie sich gerne einen Überblick über unsere aktuellen Angebote.</p>
                         <a href="#" class="group duration-300 bg-white font-semibold bg-opacity-80 py-4 px-5 flex items-center rounded-md shadow-md w-fit hover:bg-opacity-90 hover:bg-brown hover:text-white">mehr anzeigen <i class="fa fa-arrow-right ml-2 group-hover:translate-x-1 duration-300"  aria-hidden="true"></i></a>
                     </div>
-                    <div class="bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center"></div>
+                    <div class="h-[40vh] w-full order-1 bg-[url('../assets/kontakt-4-2.png')] bg-cover bg-no-repeat bg-center md:h-full md:order-2"></div>
                 </div>
             </div>
         </div>
@@ -387,15 +383,15 @@
     </section>
 
     <footer>
-        <div class="container mx-auto">
+        <div class="mx-auto xl:container">
             <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.3643590477486!2d7.509864715769309!3d51.48818087963198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b91766416cb8cf%3A0xd92367b6a1151019!2sLIREAL%20GmbH%20-%20Immobilienverwaltung%20und%20-vermittlung!5e0!3m2!1ska!2sge!4v1657214693152!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="flex">
-                <div class="w-[350px] aspect-square flex justify-center items-center bg-darkGrey">
+            <div class="flex flex-col lg:flex-row">
+                <div class="w-full max-h-[350px] aspect-square flex justify-center items-center bg-darkGrey lg:w-[350px] lg:max-h-max">
                     <img src="../assets/logo.png" alt="logo">
                 </div>
-                <div class="w-full h-[350px] bg-lightBeige flex space-x-10 items-center justify-center">
-                    <div>
-                        <h3 class="text-3xl text-darkYellow font-semibold mb-3">Kontakt</h3>
+                <div class="w-full p-5 bg-lightBeige flex flex-col space-y-10 items-start justify-center md:space-y-0 md:flex-row md:space-x-10 md:items-center">
+                    <div class="flex flex-col self-center">
+                        <h3 class="text-xl lg:text-3xl text-darkYellow font-semibold mb-3">Kontakt</h3>
                         <div class="flex space-x-20 text-sm">
                             <div class="flex flex-col space-y-2">
                                 <span class="font-semibold">Lireal GmbH</span>
@@ -409,15 +405,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-2/4">
-                        <h3 class="text-3xl text-darkYellow font-semibold mb-3">Mitgliedschaften</h3>
-                        <div class="flex justify-between items-center">
-                            <a class="block w-32 h-auto" href="#"><img class="w-full h-full" src="../assets/vdiv-logo.png" alt="vdiv logo"></a>
-                            <a class="block w-[120px] h-auto" href="#"><img class="w-full h-full" src="../assets/rics-logo.png" alt="RICS logo"></a>
-                            <a class="block w-12 h-auto" href="#"><img class="w-full h-full" src="../assets/partner-2021.png" alt="partner-2021"></a>
+                    <div class="w-full md:w-2/4">
+                        <h3 class=" text-xl lg:text-3xl text-darkYellow font-semibold mb-3 text-center md:text-left">Mitgliedschaften</h3>
+                        <div class="flex justify-between space-x-3 items-center">
+                            <a class="block max-w-[128px] h-auto" href="#"><img class="w-full h-full" src="../assets/vdiv-logo.png" alt="vdiv logo"></a>
+                            <a class="block max-w-[120px] h-auto" href="#"><img class="w-full h-full" src="../assets/rics-logo.png" alt="RICS logo"></a>
+                            <a class="block w-[60px] h-auto md:w-[120px]" href="#"><img class="w-full h-full" src="../assets/partner-2021.png" alt="partner-2021"></a>
                             <div>
-                                <a class="block w-[100px] h-auto" href="#"><img class="w-full h-full" src="../assets/google-logo.png" alt="google logo"></a>
-                                <div class="flex-items-center space-x-2 my-2 text-xl text-darkYellow">
+                                <a class="block max-w-[100px] h-auto" href="#"><img class="w-full h-full" src="../assets/google-logo.png" alt="google logo"></a>
+                                <div class="flex-items-center space-x-2 my-2 text-base lg:text-xl text-darkYellow">
                                     <span class="text-black font-semibold">4.5</span>
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -431,7 +427,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full h-[100px] flex items-center justify-between bg-darkBeige text-sm font-semibold pl-20 pr-10">
+            <div class="w-full h-[100px] grid  items-center justify-between bg-darkBeige text-sm font-semibold py-2 pl-5 pr-2 sm:grid-cols-4 md:pl-20 md:pr-10">
                 <a class="uppercase" href="#">impressum</a>
                 <a class="uppercase" href="#">datenshutz</a>
                 <a class="uppercase text-darkGrey opacity-40" href="#">cookies</a>
