@@ -142,17 +142,35 @@
 
 /* HERO SECTION */
 
+
+.hero {
+    margin-top: 103px;
+    height: calc(100vh - 103px);
+}
+
+.social-link {
+    transform: translateX(calc(100% - 25px));
+}
+
+.social-link:hover,
+.social-link:focus {
+    transform: translateX(0)
+}
+
+@media screen and (min-width: 1024px) {
+    .social-link {
+        transform: translateX(calc(100% - 50px));
+    }
+    
+    .social-link:hover {
+        transform: translateX(0)
+    }
+
+
 .hero {
     margin-top: 150px;
     height: calc(100vh - 150px);
 }
-
-.social-link {
-    transform: translateX(calc(100% - 50px));
-}
-
-.social-link:hover {
-    transform: translateX(0)
 }
 /* KONTAKT-4 */
 
