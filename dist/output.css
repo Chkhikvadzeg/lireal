@@ -968,6 +968,42 @@ html {
   height: 900px;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[1\] {
+  height: 1;
+}
+
+.h-\[10\] {
+  height: 10;
+}
+
+.h-\[100\] {
+  height: 100;
+}
+
+.h-\[1000\] {
+  height: 1000;
+}
+
+.h-\[1000p\] {
+  height: 1000p;
+}
+
 .max-h-\[350px\] {
   max-height: 350px;
 }
@@ -1663,6 +1699,10 @@ html {
 
 .bg-\[url\(\'\.\.\/assets\/kontakt-1-\.png\'\)\] {
   background-image: url('../assets/kontakt-1-.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/kontakt--1\.png\'\)\] {
+  background-image: url('../assets/kontakt--1.png');
 }
 
 .from-lightYellow {
@@ -2533,6 +2573,14 @@ h3 {
     margin-bottom: 1.75rem;
   }
 
+  .md\:mb-\[70px\] {
+    margin-bottom: 70px;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:h-\[69px\] {
     height: 69px;
   }
@@ -2553,6 +2601,14 @@ h3 {
 
   .md\:h-1\/2 {
     height: 50%;
+  }
+
+  .md\:h-\[100px\] {
+    height: 100px;
+  }
+
+  .md\:h-\[200px\] {
+    height: 200px;
   }
 
   .md\:min-h-\[660px\] {
@@ -2627,6 +2683,12 @@ h3 {
     --tw-space-x-reverse: 0;
     margin-right: calc(105px * var(--tw-space-x-reverse));
     margin-left: calc(105px * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
   }
 
   .md\:p-10 {
