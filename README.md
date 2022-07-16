@@ -1,4 +1,4 @@
-- https://chkhikvadzeg.github.io/lireal/[](https://chkhikvadzeg.github.io/lireal/)
+- https://chkhikvadzeg.github.io/lireal/](https://chkhikvadzeg.github.io/lireal/)
 - [https://chkhikvadzeg.github.io/lireal/src/kontakt.html](https://chkhikvadzeg.github.io/lireal/src/kontakt.html)
 - [https://chkhikvadzeg.github.io/lireal/src/kontakt-1.html](https://chkhikvadzeg.github.io/lireal/src/kontakt-1.html)
 - [https://chkhikvadzeg.github.io/lireal/src/kontakt-2.html](https://chkhikvadzeg.github.io/lireal/src/kontakt-2.html)
