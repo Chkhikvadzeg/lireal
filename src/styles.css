@@ -6,24 +6,21 @@
     html {
         font-family: 'Montserrat', sans-serif;
     }
-  }
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    overflow-x: hidden;
-  }
+html {
+scroll-behavior: smooth;
+}
 
-  h1, 
-  h2,
-  h3 {
-    font-weight: 600;
-  }
+body {
+overflow-x: hidden;
+}
 
-  h3 {
-    word-break: break-all;
-  }
+h1, 
+h2,
+h3 {
+font-weight: 600;
+}
 
 .hamburger {
     width: 40px;
@@ -198,4 +195,16 @@
 
 .image-bookmark {
     clip-path: polygon(100% 0%, 100% 100%, 50% 75%, 0 100%, 0 0);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
