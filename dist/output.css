@@ -666,6 +666,10 @@ html {
   margin: 0px !important;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -745,6 +749,10 @@ html {
   margin-top: 1.25rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mt-\[103px\] {
   margin-top: 103px;
 }
@@ -763,10 +771,6 @@ html {
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
 }
 
 .mb-5 {
@@ -887,8 +891,8 @@ html {
   height: 3px;
 }
 
-.h-\[18vh\] {
-  height: 18vh;
+.h-\[15vh\] {
+  height: 15vh;
 }
 
 .h-8 {
@@ -935,6 +939,14 @@ html {
   height: 50px;
 }
 
+.h-\[1vh\] {
+  height: 1vh;
+}
+
+.h-\[10vh\] {
+  height: 10vh;
+}
+
 .h-\[\] {
   height: ;
 }
@@ -943,60 +955,26 @@ html {
   height: 1;
 }
 
-.h-\[18\] {
-  height: 18;
+.h-\[15\] {
+  height: 15;
 }
 
-.h-\[18v\] {
-  height: 18v;
+.h-\[150\] {
+  height: 150;
 }
 
-.h-\[1vh\] {
-  height: 1vh;
-}
-
-.h-\[15vh\] {
-  height: 15vh;
-}
-
-.h-\[12vh\] {
-  height: 12vh;
-}
-
-.h-\[10vh\] {
-  height: 10vh;
-}
-
-.h-\[0vh\] {
-  height: 0vh;
-}
-
-.h-\[2\] {
-  height: 2;
-}
-
-.h-\[20\] {
-  height: 20;
-}
-
-.h-\[20v\] {
-  height: 20v;
-}
-
-.h-\[25\] {
-  height: 25;
-}
-
-.h-\[25v\] {
-  height: 25v;
-}
-
-.h-\[2vh\] {
-  height: 2vh;
+.h-\[150p\] {
+  height: 150p;
 }
 
 .max-h-\[350px\] {
   max-height: 350px;
+}
+
+.max-h-fit {
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
 }
 
 .w-full {
@@ -1015,10 +993,6 @@ html {
 
 .w-\[60px\] {
   width: 60px;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .w-20 {
@@ -1043,6 +1017,14 @@ html {
 
 .w-\[100px\] {
   width: 100px;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .max-w-\[512px\] {
@@ -1079,20 +1061,8 @@ html {
   max-width: 709px;
 }
 
-.flex-auto {
-  flex: 1 1 auto;
-}
-
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.flex-grow {
-  flex-grow: 1;
-}
-
-.flex-grow-\[2\] {
-  flex-grow: 2;
 }
 
 .-translate-y-1\/2 {
@@ -1137,6 +1107,38 @@ html {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-\[\] {
+  grid-template-columns: ;
+}
+
+.grid-cols-\[2\] {
+  grid-template-columns: 2;
+}
+
+.grid-cols-\[2f\] {
+  grid-template-columns: 2f;
+}
+
+.grid-cols-\[2fr\] {
+  grid-template-columns: 2fr;
+}
+
+.grid-cols-\[2fr\2c \] {
+  grid-template-columns: 2fr ;
+}
+
+.grid-cols-\[2fr\2c 1fr\] {
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid-cols-\[2fr1fr\] {
+  grid-template-columns: 2fr1fr;
+}
+
+.grid-cols-\[2fr_1fr\] {
+  grid-template-columns: 2fr 1fr;
 }
 
 .flex-row {
@@ -1187,6 +1189,14 @@ html {
   gap: 1.25rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -1195,12 +1205,8 @@ html {
   gap: 1rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-y-10 {
@@ -1347,10 +1353,6 @@ html {
   border-radius: 9999px;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-r-md {
   border-top-right-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem;
@@ -1381,6 +1383,14 @@ html {
   border-bottom-width: 5px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
 .border-dashed {
   border-style: dashed;
 }
@@ -1398,6 +1408,11 @@ html {
 .border-darkBeige {
   --tw-border-opacity: 1;
   border-color: rgb(209 204 197 / var(--tw-border-opacity));
+}
+
+.border-darkGrey {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 100 100 / var(--tw-border-opacity));
 }
 
 .border-r-gray-200 {
@@ -1574,6 +1589,418 @@ html {
   background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\.\'\)\] {
+  background-image: url('.');
+}
+
+.bg-\[url\(\'\.\.\/\'\)\] {
+  background-image: url('../');
+}
+
+.bg-\[url\(\'\.\.\/a\'\)\] {
+  background-image: url('../a');
+}
+
+.bg-\[url\(\'\.\.\/as\'\)\] {
+  background-image: url('../as');
+}
+
+.bg-\[url\(\'\.\.\/ass\'\)\] {
+  background-image: url('../ass');
+}
+
+.bg-\[url\(\'\.\.\/asse\'\)\] {
+  background-image: url('../asse');
+}
+
+.bg-\[url\(\'\.\.\/asset\'\)\] {
+  background-image: url('../asset');
+}
+
+.bg-\[url\(\'\.\.\/assets\'\)\] {
+  background-image: url('../assets');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\'\)\] {
+  background-image: url('../assets/');
+}
+
+.bg-\[url\(\'\.\.\/assets\/f\'\)\] {
+  background-image: url('../assets/f');
+}
+
+.bg-\[url\(\'\.\.\/assets\/fo\'\)\] {
+  background-image: url('../assets/fo');
+}
+
+.bg-\[url\(\'\.\.\/assets\/for\'\)\] {
+  background-image: url('../assets/for');
+}
+
+.bg-\[url\(\'\.\.\/assets\/form\'\)\] {
+  background-image: url('../assets/form');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\'\)\] {
+  background-image: url('../assets/forms');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/\'\)\] {
+  background-image: url('../assets/forms/');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/f\'\)\] {
+  background-image: url('../assets/forms/f');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/fo\'\)\] {
+  background-image: url('../assets/forms/fo');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/fon\'\)\] {
+  background-image: url('../assets/forms/fon');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/for\'\)\] {
+  background-image: url('../assets/forms/for');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/form\'\)\] {
+  background-image: url('../assets/forms/form');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms\'\)\] {
+  background-image: url('../assets/forms/forms');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-\'\)\] {
+  background-image: url('../assets/forms/forms-');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-9\'\)\] {
+  background-image: url('../assets/forms/forms-9');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-9\.\'\)\] {
+  background-image: url('../assets/forms/forms-9.');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-9\.p\'\)\] {
+  background-image: url('../assets/forms/forms-9.p');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-9\.pn\'\)\] {
+  background-image: url('../assets/forms/forms-9.pn');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\2c \'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(,'../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(,_'../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(b\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(b,_'../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg,_'../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-,_'../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[],_'../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[u\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[u],_'../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[ur\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[ur],_'../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url],_'../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url()], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('.')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/a\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../a')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/as\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../as')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/ass\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../ass')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/asse\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../asse')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/f\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/f')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/fo\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/fo')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/for\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/for')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/form\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/form')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/f\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/f')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/fo\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/fo')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/for\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/for')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/form\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/form')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/forms\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/forms')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/forms-\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/forms-')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/forms-1\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/forms-1')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/forms-10\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/forms-10')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/forms-10\.\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/forms-10.')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/forms-10\.s\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/forms-10.s')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/forms-10\.sv\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/forms-10.sv')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-\[url\(\'\.\.\/assets\/forms\/forms-10\.svg\'\)\]\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-[url('../assets/forms/forms-10.svg')], '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(bg-url\(\'\.\.\/assets\/forms\/forms-10\.svg\'\)\2c _\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(bg-url('../assets/forms/forms-10.svg'), '../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\)url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url()url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\)_url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url() url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url(''), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('.'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('..'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/a\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../a'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/as\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../as'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/ass\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../ass'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/f\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/f'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/fo\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/fo'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/for\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/for'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/form\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/form'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/f\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/f'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/fo\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/fo'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/for\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/for'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/form\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/form'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/forms'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/forms-'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-1\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/forms-1'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-10\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/forms-10'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-10\.\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/forms-10.'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-10\.sv\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/forms-10.sv'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-10\.svg\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
+  background-image: url('../assets/forms/forms-10.svg'), url('../assets/forms/forms-9.png');
+}
+
+.bg-\[url\(\.\)\] {
+  background-image: url(.);
+}
+
+.bg-\[url\(\'\.\.\'\)\] {
+  background-image: url('..');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-1\'\)\] {
+  background-image: url('../assets/forms/forms-1');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-11\'\)\] {
+  background-image: url('../assets/forms/forms-11');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-11\.\'\)\] {
+  background-image: url('../assets/forms/forms-11.');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-11\.sv\'\)\] {
+  background-image: url('../assets/forms/forms-11.sv');
+}
+
+.bg-\[url\(\'\.\.\/assets\/forms\/forms-11\.svg\'\)\] {
+  background-image: url('../assets/forms/forms-11.svg');
+}
+
 .from-lightYellow {
   --tw-gradient-from: #F5D166;
   --tw-gradient-to: rgb(245 209 102 / 0);
@@ -1598,8 +2025,164 @@ html {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-\[length\:10\%_10\%\] {
+  background-size: 10% 10%;
+}
+
+.bg-\[length\:0\%_10\%\] {
+  background-size: 0% 10%;
+}
+
+.bg-\[length\:50\%_10\%\] {
+  background-size: 50% 10%;
+}
+
+.bg-\[length\:50\%_0\%\] {
+  background-size: 50% 0%;
+}
+
+.bg-\[length\:50\%_50\%\] {
+  background-size: 50% 50%;
+}
+
 .bg-center {
   background-position: center;
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+.bg-\[left\] {
+  background-position: left;
+}
+
+.bg-\[bottom\] {
+  background-position: bottom;
+}
+
+.bg-\[position\:bottom-left\2c _bottom-right\] {
+  background-position: bottom-left, bottom-right;
+}
+
+.bg-\[position\:center_bottom\2c _right\] {
+  background-position: center bottom, right;
+}
+
+.bg-\[position\:center_botto\2c _right\] {
+  background-position: center botto, right;
+}
+
+.bg-\[position\:center_bott\2c _right\] {
+  background-position: center bott, right;
+}
+
+.bg-\[position\:center_\2c _right\] {
+  background-position: center , right;
+}
+
+.bg-\[position\:cen\2c _right\] {
+  background-position: cen, right;
+}
+
+.bg-\[position\:ce\2c _right\] {
+  background-position: ce, right;
+}
+
+.bg-\[position\:c\2c _right\] {
+  background-position: c, right;
+}
+
+.bg-\[position\:\2c _right\] {
+  background-position: , right;
+}
+
+.bg-\[position\:l\2c _right\] {
+  background-position: l, right;
+}
+
+.bg-\[position\:le\2c _right\] {
+  background-position: le, right;
+}
+
+.bg-\[position\:lef\2c _right\] {
+  background-position: lef, right;
+}
+
+.bg-\[position\:left\2c _right\] {
+  background-position: left, right;
+}
+
+.bg-\[position\:left-\2c _right\] {
+  background-position: left-, right;
+}
+
+.bg-\[position\:left-b\2c _right\] {
+  background-position: left-b, right;
+}
+
+.bg-\[position\:left-bo\2c _right\] {
+  background-position: left-bo, right;
+}
+
+.bg-\[position\:left-bor\2c _right\] {
+  background-position: left-bor, right;
+}
+
+.bg-\[position\:left-borr\2c _right\] {
+  background-position: left-borr, right;
+}
+
+.bg-\[position\:left-bot\2c _right\] {
+  background-position: left-bot, right;
+}
+
+.bg-\[position\:left-bott\2c _right\] {
+  background-position: left-bott, right;
+}
+
+.bg-\[position\:left-bottom\2c _right\] {
+  background-position: left-bottom, right;
+}
+
+.bg-\[position\:left-bottom\2c _right-\] {
+  background-position: left-bottom, right-;
+}
+
+.bg-\[position\:left-bottom\2c _right-b\] {
+  background-position: left-bottom, right-b;
+}
+
+.bg-\[position\:left-bottom\2c _right-bot\] {
+  background-position: left-bottom, right-bot;
+}
+
+.bg-\[position\:left-bottom\2c _right-bott\] {
+  background-position: left-bottom, right-bott;
+}
+
+.bg-\[position\:left-bottom\2c _right-bottom\] {
+  background-position: left-bottom, right-bottom;
+}
+
+.bg-\[position\:leftbottom\2c _right-bottom\] {
+  background-position: leftbottom, right-bottom;
+}
+
+.bg-\[position\:left_bottom\2c _right-bottom\] {
+  background-position: left bottom, right-bottom;
+}
+
+.bg-\[position\:left_bottom\2c _rightbottom\] {
+  background-position: left bottom, rightbottom;
+}
+
+.bg-\[position\:left_bottom\2c _right_bottom\] {
+  background-position: left bottom, right bottom;
 }
 
 .bg-no-repeat {
@@ -1907,16 +2490,6 @@ html {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.blur {
-  --tw-blur: blur(8px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.blur-xl {
-  --tw-blur: blur(24px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .drop-shadow-sm {
@@ -2245,6 +2818,18 @@ input[type=number] {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.placeholder\:opacity-100::-moz-placeholder {
+  opacity: 1;
+}
+
+.placeholder\:opacity-100:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.placeholder\:opacity-100::placeholder {
+  opacity: 1;
+}
+
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
@@ -2338,6 +2923,11 @@ input[type=number] {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.group:hover .group-hover\:-translate-x-1 {
+  --tw-translate-x: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .group:hover .group-hover\:translate-y-0 {
   --tw-translate-y: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2358,8 +2948,8 @@ input[type=number] {
     margin-top: 2.5rem;
   }
 
-  .sm\:flex {
-    display: flex;
+  .sm\:mt-1 {
+    margin-top: 0.25rem;
   }
 
   .sm\:h-auto {
@@ -2378,6 +2968,10 @@ input[type=number] {
     width: auto;
   }
 
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -2388,6 +2982,30 @@ input[type=number] {
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-\[2fr_1fr\] {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .sm\:grid-cols-\[fr_1fr\] {
+    grid-template-columns: fr 1fr;
+  }
+
+  .sm\:grid-cols-\[1fr_1fr\] {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sm\:grid-cols-\[1fr_12fr\] {
+    grid-template-columns: 1fr 12fr;
+  }
+
+  .sm\:grid-cols-\[1fr_fr\] {
+    grid-template-columns: 1fr fr;
+  }
+
+  .sm\:grid-cols-\[1fr_2fr\] {
+    grid-template-columns: 1fr 2fr;
   }
 
   .sm\:flex-row {
@@ -2410,12 +3028,12 @@ input[type=number] {
     justify-content: center;
   }
 
-  .sm\:justify-between {
-    justify-content: space-between;
-  }
-
   .sm\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .sm\:gap-8 {
+    gap: 2rem;
   }
 
   .sm\:gap-y-0 {
@@ -2429,6 +3047,29 @@ input[type=number] {
 
   .sm\:gap-y-10 {
     row-gap: 2.5rem;
+  }
+
+  .sm\:bg-contain {
+    background-size: contain;
+  }
+
+  .sm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .sm\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -2512,6 +3153,14 @@ input[type=number] {
 
   .md\:mt-\[100px\] {
     margin-top: 100px;
+  }
+
+  .md\:mt-\[0px\] {
+    margin-top: 0px;
+  }
+
+  .md\:mt-\[10px\] {
+    margin-top: 10px;
   }
 
   .md\:h-\[69px\] {
