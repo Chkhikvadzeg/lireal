@@ -1681,6 +1681,11 @@ html {
   padding-bottom: 2.5rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -1694,11 +1699,6 @@ html {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .pt-10 {
@@ -1957,9 +1957,9 @@ h1,
 h2,
 h3 {
   font-weight: 600;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  -webkit-hyphens: manual;
+      -ms-hyphens: manual;
+          hyphens: manual;
 }
 
 .hamburger {
@@ -2653,10 +2653,6 @@ input[type=number] {
     display: block;
   }
 
-  .md\:grid {
-    display: grid;
-  }
-
   .md\:h-\[69px\] {
     height: 69px;
   }
@@ -2745,24 +2741,8 @@ input[type=number] {
     grid-template-columns: 1fr 2fr;
   }
 
-  .md\:grid-cols-\[fr_2fr\] {
-    grid-template-columns: fr 2fr;
-  }
-
-  .md\:grid-cols-\[2fr_2fr\] {
-    grid-template-columns: 2fr 2fr;
-  }
-
-  .md\:grid-cols-\[2fr_fr\] {
-    grid-template-columns: 2fr fr;
-  }
-
   .md\:grid-cols-\[2fr_1fr\] {
     grid-template-columns: 2fr 1fr;
-  }
-
-  .md\:grid-cols-\[12fr_2fr\] {
-    grid-template-columns: 12fr 2fr;
   }
 
   .md\:flex-row {
