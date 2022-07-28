@@ -20,6 +20,7 @@ h1,
 h2,
 h3 {
 font-weight: 600;
+hyphens: auto;
 }
 
 .hamburger {
@@ -141,6 +142,49 @@ font-weight: 600;
     right: 0;
 }
 
+.arrow-top-animation {
+    animation: arrow-top 1s infinite ease-in-out;
+}
+
+.arrow-bottom-animation {
+    animation: arrow-bottom 1s infinite ease-in-out;
+}
+
+@keyframes arrow-top {
+    0% {
+        top: 0%;
+        opacity: 1;
+    }
+    30% {
+        top: -50%;
+        opacity: 0.4;
+    }
+    100% {
+        top: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes arrow-bottom {
+    0% {
+        top: 50%;
+        opacity: 1;
+    }
+    40% {
+        top: 0%;
+        opacity: 0.9;
+    }
+    60% {
+        top: 50%;
+        opacity: 1;
+    }
+    100% {
+        top: 50%;
+        opacity: 1;
+    }
+
+}
+
 /* HERO SECTION */
 
 
@@ -150,7 +194,7 @@ font-weight: 600;
 }
 
 .social-link {
-    transform: translateX(calc(100% - 25px));
+    transform: translateX(calc(100% - 30px));
 }
 
 .social-link:hover,
@@ -176,13 +220,20 @@ font-weight: 600;
 /* KONTAKT-4 */
 
 .dropdown-answer{
+    height: 0;
+    overflow: hidden;
     transition: all .3s ease-in-out;
 }
 
 .question-dropdown.active .dropdown-answer {
+    height: fit-content;
     position: static;
     display: block;
     transform: scaleY(1) translateY(0);
+}
+
+.question-dropdown.active .margin-top {
+    margin-top: 40px;
 }
 
 .question-dropdown-button {

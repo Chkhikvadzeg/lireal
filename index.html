@@ -73,27 +73,36 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="xl:container overflow-x-hidden relative mx-auto flex pt-10  pl-4 h-full bg-[url('../assets/hero.png')] bg-center bg-no-repeat bg-cover text-white md:pl-8">
+    <section class="hero relative">
+        <video autoplay muted loop id="myVideo" class="absolute min-w-full min-h-full object-fill bottom-0 right-0">
+            <source src="./assets/videos/video-1.mp4" type="video/mp4">
+        </video>
+        <div class="xl:container overflow-x-hidden relative mx-auto flex pt-10  pl-4 h-full text-white md:pl-8">
             <h1 class="drop-shadow-sm w-1/2 text-[10vw] leading-none tracking-widest text-clip font-semibold lg:text-[114px] lg:leading-[140px]">
                 smart. digital. professionell.
             </h1>
             <div class="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col items-end space-y-2">
-                <a class="social-link flex group items-center space-x-2 text-base p-2 md:text-2xl md:p-4 bg-darkBeige rounded-l-md duration-300 hover:translate-x-0" href="#">
-                    <i class="fa fa-address-book py-1" aria-hidden="true"></i>
+                <a class="social-link flex group items-center space-x-2 text-xl p-2 md:text-2xl md:p-4 bg-darkBeige rounded-l-md duration-300 hover:translate-x-0" href="#">
+                    <i class="fa fa-address-book " aria-hidden="true"></i>
                     <span class="text-transparent whitespace-nowrap group-hover:text-white duration-300">Kontakt aufnehmen</span>
                 </a>
-                <a class="social-link flex group items-center space-x-2 text-base p-2 md:text-2xl md:p-4 bg-brown rounded-l-md duration-300 hover:translate-x-0" href="#">
-                    <i class="fa fa-linkedin-square py-1" aria-hidden="true"></i>
+                <a class="social-link flex group items-center space-x-2 text-xl p-2 md:text-2xl md:p-4 bg-brown rounded-l-md duration-300 hover:translate-x-0" href="#">
+                    <i class="fa fa-linkedin-square " aria-hidden="true"></i>
                     <span class="text-transparent whitespace-nowrap group-hover:text-white group-focus:text-white duration-300">Linkedin</span>
                 </a>
-                <a class="social-link flex group items-center space-x-2 text-base p-2 md:text-2xl md:p-4 bg-darkYellow rounded-l-md duration-300 hover:translate-x-0" href="#">
-                    <i class="fa fa-instagram py-1" aria-hidden="true"></i>
+                <a class="social-link flex group items-center space-x-2 text-xl p-2 md:text-2xl md:p-4 bg-darkYellow rounded-l-md duration-300 hover:translate-x-0" href="#">
+                    <i class="fa fa-instagram " aria-hidden="true"></i>
                     <span class="text-transparent whitespace-nowrap group-hover:text-white group-focus:text-white duration-300">Instagram</span>
                 </a>
             </div>
-            <div class="absolute left-0 bottom-0 w-full grid grid-cols-2  items-end sm:grid-cols-4">
-                <p class="px-2 text-center md:px-10">LIREAL – bewirtschaftet effizient und renditeorientiert über den gesamten Lebenszyklus von Immobilien.</p>
+            <div class="absolute left-0 bottom-0 w-full grid grid-cols-2 items-end sm:grid-cols-4">
+                <div class="px-4 self-center md:px-10 flex items-center gap-4">
+                    <div class="relative w-[53px] aspect-square text-3xl md:text-4xl">
+                        <i class="fa fa-angle-down left-1/2 -translate-x-1/2 absolute arrow-top-animation" aria-hidden="true"></i>
+                        <i class="fa fa-angle-down left-1/2 -translate-x-1/2 absolute arrow-bottom-animation" aria-hidden="true"></i>
+                    </div>
+                    <p class="text-center ">LIREAL – bewirtschaftet effizient und renditeorientiert über den gesamten Lebenszyklus von Immobilien.</p>
+                </div>
                 <a href="#" class="group whitespace-nowrap duration-300 flex items-center relative text-sm md:text-xl lg:text-3xl justify-center space-x-3 p-8 bg-[url('../assets/building.png')] bg-cover bg-no-repeat bg-center after:duration-300 after:ease-in-out after:w-full after:h-full after:absolute hover:after:bg-opacity-40 hover:after:bg-darkYellow md:p-[60px]">
                     <span class="font-semibold z-10 z-index">Referenzen</span>
                     <i class="fa fa-arrow-right ml-2 z-10 group-hover:translate-x-1 duration-300 z-index"  aria-hidden="true"></i>
