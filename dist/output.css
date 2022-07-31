@@ -822,6 +822,10 @@ html {
   margin-bottom: 3rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -880,10 +884,6 @@ html {
   height: 3px;
 }
 
-.h-\[10vh\] {
-  height: 10vh;
-}
-
 .h-8 {
   height: 2rem;
 }
@@ -894,6 +894,10 @@ html {
 
 .h-\[150px\] {
   height: 150px;
+}
+
+.h-9 {
+  height: 2.25rem;
 }
 
 .h-\[700px\] {
@@ -936,6 +940,10 @@ html {
   min-height: 100%;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -960,6 +968,10 @@ html {
 
 .w-20 {
   width: 5rem;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .w-\[125\%\] {
@@ -990,6 +1002,10 @@ html {
   min-width: 100%;
 }
 
+.min-w-\[150px\] {
+  min-width: 150px;
+}
+
 .max-w-\[512px\] {
   max-width: 512px;
 }
@@ -1018,6 +1034,10 @@ html {
 
 .max-w-\[100px\] {
   max-width: 100px;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 
 .flex-1 {
@@ -1150,6 +1170,10 @@ html {
   gap: 1.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -1158,16 +1182,8 @@ html {
   gap: 0.5rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .gap-y-10 {
   row-gap: 2.5rem;
-}
-
-.gap-y-5 {
-  row-gap: 1.25rem;
 }
 
 .gap-x-\[100px\] {
@@ -1178,6 +1194,10 @@ html {
 .gap-x-12 {
   -moz-column-gap: 3rem;
        column-gap: 3rem;
+}
+
+.gap-y-5 {
+  row-gap: 1.25rem;
 }
 
 .space-x-24 > :not([hidden]) ~ :not([hidden]) {
@@ -1296,6 +1316,10 @@ html {
   border-radius: 0.5rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1318,6 +1342,10 @@ html {
   border-width: 2px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -1336,6 +1364,10 @@ html {
 
 .border-dashed {
   border-style: dashed;
+}
+
+.border-none {
+  border-style: none;
 }
 
 .border-black {
@@ -1666,6 +1698,11 @@ html {
   padding-bottom: 1.25rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1900,6 +1937,11 @@ html {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .drop-shadow-sm {
@@ -2299,6 +2341,32 @@ h3 {
           clip-path: polygon(100% 0%, 100% 100%, 50% 75%, 0 100%, 0 0);
 }
 
+.range {
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+.range::-webkit-slider-thumb,
+.range::-moz-range-thumb {
+  box-shadow: 0px 3px 6px rgba(56, 56, 56, 0.026);
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  background: #E0AA0B;
+  cursor: pointer;
+  border: 0;
+}
+
+.range::-webkit-slider-runnable-track ,
+.range::-moz-range-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  box-shadow: 0px 3px 6px rgba(56, 56, 56, 0.026);
+  background: black;
+}
+
 /* Chrome, Safari, Edge, Opera */
 
 input::-webkit-outer-spin-button,
@@ -2462,16 +2530,22 @@ input[type=number] {
     height: auto;
   }
 
+  .sm\:h-fit {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
   .sm\:h-full {
     height: 100%;
   }
 
-  .sm\:w-4\/5 {
-    width: 80%;
+  .sm\:min-h-0 {
+    min-height: 0px;
   }
 
-  .sm\:w-auto {
-    width: auto;
+  .sm\:w-4\/5 {
+    width: 80%;
   }
 
   .sm\:w-1\/2 {
@@ -2506,8 +2580,12 @@ input[type=number] {
     flex-direction: column;
   }
 
-  .sm\:items-end {
-    align-items: flex-end;
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:items-stretch {
+    align-items: stretch;
   }
 
   .sm\:justify-start {
@@ -2526,6 +2604,10 @@ input[type=number] {
     gap: 2rem;
   }
 
+  .sm\:gap-0 {
+    gap: 0px;
+  }
+
   .sm\:gap-y-0 {
     row-gap: 0px;
   }
@@ -2533,10 +2615,6 @@ input[type=number] {
   .sm\:gap-x-12 {
     -moz-column-gap: 3rem;
          column-gap: 3rem;
-  }
-
-  .sm\:gap-y-10 {
-    row-gap: 2.5rem;
   }
 
   .sm\:py-4 {
@@ -2859,16 +2937,6 @@ input[type=number] {
   .md\:py-\[60px\] {
     padding-top: 60px;
     padding-bottom: 60px;
-  }
-
-  .md\:px-\[150px\] {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-
-  .md\:py-\[100px\] {
-    padding-top: 100px;
-    padding-bottom: 100px;
   }
 
   .md\:px-36 {
@@ -3195,6 +3263,11 @@ input[type=number] {
         max-width: 1920px;
       }
     }
+  }
+
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .xl\:grid-cols-4 {
