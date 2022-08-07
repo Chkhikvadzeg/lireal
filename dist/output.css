@@ -846,10 +846,6 @@ html {
   aspect-ratio: 1 / 1;
 }
 
-.aspect-video {
-  aspect-ratio: 16 / 9;
-}
-
 .h-fit {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -956,6 +952,10 @@ html {
   width: 53px;
 }
 
+.w-\[90vw\] {
+  width: 90vw;
+}
+
 .w-fit {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1018,10 +1018,6 @@ html {
 
 .max-w-\[250px\] {
   max-width: 250px;
-}
-
-.max-w-\[1632px\] {
-  max-width: 1632px;
 }
 
 .max-w-\[128px\] {
@@ -1455,36 +1451,36 @@ html {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\.\.\/assets\/building\.png\'\)\] {
-  background-image: url('../assets/building.png');
+.bg-\[url\(\'\.\/assets\/building\.png\'\)\] {
+  background-image: url('./assets/building.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/image-2\.png\'\)\] {
-  background-image: url('../assets/image-2.png');
+.bg-\[url\(\'\.\/assets\/image-2\.png\'\)\] {
+  background-image: url('./assets/image-2.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/image-3\.png\'\)\] {
-  background-image: url('../assets/image-3.png');
+.bg-\[url\(\'\.\/assets\/image-3\.png\'\)\] {
+  background-image: url('./assets/image-3.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/main-image-1\.png\'\)\] {
-  background-image: url('../assets/main-image-1.png');
+.bg-\[url\(\'\.\/assets\/main-image-1\.png\'\)\] {
+  background-image: url('./assets/main-image-1.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/main-image-2\.png\'\)\] {
-  background-image: url('../assets/main-image-2.png');
+.bg-\[url\(\'\.\/assets\/main-image-2\.png\'\)\] {
+  background-image: url('./assets/main-image-2.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/main-image-3\.png\'\)\] {
-  background-image: url('../assets/main-image-3.png');
+.bg-\[url\(\'\.\/assets\/main-image-3\.png\'\)\] {
+  background-image: url('./assets/main-image-3.png');
 }
 
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\.\.\/assets\/red-building\.png\'\)\] {
-  background-image: url('../assets/red-building.png');
+.bg-\[url\(\'\.\/assets\/red-building\.png\'\)\] {
+  background-image: url('./assets/red-building.png');
 }
 
 .bg-\[url\(\'\.\.\/assets\/forms\/forms-10\.svg\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
@@ -1499,6 +1495,10 @@ html {
   background-image: url('../assets/kontakt-1-1.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/main-image-3\.png\'\)\] {
+  background-image: url('../assets/main-image-3.png');
+}
+
 .bg-\[url\(\'\.\.\/assets\/kontakt-4-1\.png\'\)\] {
   background-image: url('../assets/kontakt-4-1.png');
 }
@@ -1507,8 +1507,20 @@ html {
   background-image: url('../assets/kontakt-4-2.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/main-image-1\.png\'\)\] {
+  background-image: url('../assets/main-image-1.png');
+}
+
 .bg-\[url\(\'\.\.\/assets\/kontakt-3-1\.png\'\)\] {
   background-image: url('../assets/kontakt-3-1.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/red-building\.png\'\)\] {
+  background-image: url('../assets/red-building.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/main-image-2\.png\'\)\] {
+  background-image: url('../assets/main-image-2.png');
 }
 
 .bg-\[url\(\'\.\.\/assets\/kontakt-5-1\.png\'\)\] {
@@ -1569,6 +1581,18 @@ html {
 
 .bg-gradient-to-bl {
   background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\.\/assets\/building\.png\'\)\] {
+  background-image: url('../assets/building.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/image-2\.png\'\)\] {
+  background-image: url('../assets/image-2.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/image-3\.png\'\)\] {
+  background-image: url('../assets/image-3.png');
 }
 
 .from-lightYellow {
@@ -3201,68 +3225,6 @@ input[type=number] {
 }
 
 @media (min-width: 1920px) {
-  .xl\:container {
-    width: 100%;
-  }
-
-  @media (min-width: 1920px) {
-    .xl\:xl\:container {
-      width: 100%;
-    }
-  }
-
-  @media (min-width: 769px) {
-    .xl\:container {
-      max-width: 769px;
-    }
-  }
-
-  @media (min-width: 1920px) {
-    @media (min-width: 769px) {
-      .xl\:xl\:container {
-        max-width: 769px;
-      }
-    }
-  }
-
-  @media (min-width: 1025px) {
-    .xl\:container {
-      max-width: 1025px;
-    }
-  }
-
-  @media (min-width: 1920px) {
-    @media (min-width: 1025px) {
-      .xl\:xl\:container {
-        max-width: 1025px;
-      }
-    }
-  }
-
-  @media (min-width: 1441px) {
-    .xl\:container {
-      max-width: 1441px;
-    }
-  }
-
-  @media (min-width: 1920px) {
-    @media (min-width: 1441px) {
-      .xl\:xl\:container {
-        max-width: 1441px;
-      }
-    }
-
-    .xl\:container {
-      max-width: 1920px;
-    }
-
-    @media (min-width: 1920px) {
-      .xl\:xl\:container {
-        max-width: 1920px;
-      }
-    }
-  }
-
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
