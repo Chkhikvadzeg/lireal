@@ -1451,36 +1451,36 @@ html {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\.\/assets\/building\.png\'\)\] {
-  background-image: url('./assets/building.png');
+.bg-\[url\(\'\.\.\/assets\/building\.png\'\)\] {
+  background-image: url('../assets/building.png');
 }
 
-.bg-\[url\(\'\.\/assets\/image-2\.png\'\)\] {
-  background-image: url('./assets/image-2.png');
+.bg-\[url\(\'\.\.\/assets\/image-2\.png\'\)\] {
+  background-image: url('../assets/image-2.png');
 }
 
-.bg-\[url\(\'\.\/assets\/image-3\.png\'\)\] {
-  background-image: url('./assets/image-3.png');
+.bg-\[url\(\'\.\.\/assets\/image-3\.png\'\)\] {
+  background-image: url('../assets/image-3.png');
 }
 
-.bg-\[url\(\'\.\/assets\/main-image-1\.png\'\)\] {
-  background-image: url('./assets/main-image-1.png');
+.bg-\[url\(\'\.\.\/assets\/main-image-1\.png\'\)\] {
+  background-image: url('../assets/main-image-1.png');
 }
 
-.bg-\[url\(\'\.\/assets\/main-image-2\.png\'\)\] {
-  background-image: url('./assets/main-image-2.png');
+.bg-\[url\(\'\.\.\/assets\/main-image-2\.png\'\)\] {
+  background-image: url('../assets/main-image-2.png');
 }
 
-.bg-\[url\(\'\.\/assets\/main-image-3\.png\'\)\] {
-  background-image: url('./assets/main-image-3.png');
+.bg-\[url\(\'\.\.\/assets\/main-image-3\.png\'\)\] {
+  background-image: url('../assets/main-image-3.png');
 }
 
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\.\/assets\/red-building\.png\'\)\] {
-  background-image: url('./assets/red-building.png');
+.bg-\[url\(\'\.\.\/assets\/red-building\.png\'\)\] {
+  background-image: url('../assets/red-building.png');
 }
 
 .bg-\[url\(\'\.\.\/assets\/forms\/forms-10\.svg\'\)\2c _url\(\'\.\.\/assets\/forms\/forms-9\.png\'\)\] {
@@ -1495,10 +1495,6 @@ html {
   background-image: url('../assets/kontakt-1-1.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/main-image-3\.png\'\)\] {
-  background-image: url('../assets/main-image-3.png');
-}
-
 .bg-\[url\(\'\.\.\/assets\/kontakt-4-1\.png\'\)\] {
   background-image: url('../assets/kontakt-4-1.png');
 }
@@ -1507,20 +1503,8 @@ html {
   background-image: url('../assets/kontakt-4-2.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/main-image-1\.png\'\)\] {
-  background-image: url('../assets/main-image-1.png');
-}
-
 .bg-\[url\(\'\.\.\/assets\/kontakt-3-1\.png\'\)\] {
   background-image: url('../assets/kontakt-3-1.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/red-building\.png\'\)\] {
-  background-image: url('../assets/red-building.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/main-image-2\.png\'\)\] {
-  background-image: url('../assets/main-image-2.png');
 }
 
 .bg-\[url\(\'\.\.\/assets\/kontakt-5-1\.png\'\)\] {
@@ -1581,18 +1565,6 @@ html {
 
 .bg-gradient-to-bl {
   background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\.\.\/assets\/building\.png\'\)\] {
-  background-image: url('../assets/building.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/image-2\.png\'\)\] {
-  background-image: url('../assets/image-2.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/image-3\.png\'\)\] {
-  background-image: url('../assets/image-3.png');
 }
 
 .from-lightYellow {
